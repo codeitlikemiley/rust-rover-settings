@@ -37,11 +37,11 @@
 
 </details>
 
-### 4. [Download Move ideavimrc](https://github.com/codeitlikemiley/rust-rover-settings/blob/main/.ideavimrc)
+#### 4. [Download Move ideavimrc](https://github.com/codeitlikemiley/rust-rover-settings/blob/main/.ideavimrc)
 
 > Move the Downloaded file to your Home Directory `~/.ideavimrc`
 
-## 5. Learn The Keymap The Easy Way
+#### 5. Learn The Keymap The Easy Way
 
 <details>
   <summary>Keybindings for Tool Windows</summary>
