@@ -37,7 +37,7 @@
 
 </details>
 
-#### 4. [Download Move ideavimrc](https://github.com/codeitlikemiley/rust-rover-settings/blob/main/.ideavimrc)
+#### 4. [Download ideavimrc](https://github.com/codeitlikemiley/rust-rover-settings/blob/main/.ideavimrc)
 
 > Move the Downloaded file to your Home Directory `~/.ideavimrc`
 
