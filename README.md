@@ -83,7 +83,7 @@
 
 <kbd>OPT</kbd> + <kbd>R</kbd> === `Tool Windows: Run`
 
-<kbd>OPT</kbd> + <kbd>X</kbd> === `Tool Windows: Problems`
+<kbd>OPT</kbd> + <kbd>P</kbd> === `Tool Windows: Problems`
 
 <kbd>CMD</kbd> + <kbd>TILDA</kbd> === `Tool Windows: Terminal`
 
@@ -148,16 +148,28 @@
 
 <details>
 <summary>
-<strong>Find<strong>
+<strong>Find with Multi-Cursor<strong>
 </summary>
 
 <kbd>CMD</kbd> + <kbd>F</kbd>=== `Find`
 
-<kbd>CMD</kbd> + <kbd>N</kbd>=== `Find Next`
+<kbd>CMD</kbd> + <kbd>]</kbd>=== `Find Next`
 
-<kbd>CMD</kbd> + <kbd>SHIFT</kbd> + <kbd>N</kbd>=== `Find Previous`
+<kbd>CMD</kbd> + <kbd>SHIFT</kbd> + <kbd>N</kbd>=== `Add Selection For Next Occurence`
+
+
+<kbd>CMD</kbd> + <kbd>[</kbd>=== `Find Previous`
+
+
+<kbd>CMD</kbd> + <kbd>SHIFT</kbd> + <kbd>N</kbd>=== `Unselect Occurence`
+
+
+<kbd>CMD</kbd> + <kbd>\\</kbd>=== `Select All Occurence`
 
 <kbd>CMD</kbd> + <kbd>SHIFT</kbd> + <kbd>F</kbd>=== `Find in Files`
+
+
+<kbd>OPT</kbd> + <kbd>SHIFT</kbd> + <kbd>F</kbd>=== `Open File in Finder`
 
 </details>
 
@@ -178,7 +190,9 @@
 
 <kbd>CMD</kbd> + <kbd>D</kbd>=== `Quick Definition`
 
-<kbd>CMD</kbd> + <kbd>G</kbd>=== `Go to Line:Column`
+<kbd>CMD</kbd> + <kbd>G</kbd>=== `Go to Reference Action`
+
+<kbd>CMD</kbd> +<kbd>SHIFT</kbd> + <kbd>G</kbd>=== `Go to LineNumber:Column`
 
 
 </details>
@@ -314,11 +328,11 @@
 
 <kbd>CMD</kbd>+<kbd>.</kbd> === `Quick Fixes`
 
-<kbd>CMD</kbd>+<kbd>[</kbd> === `Previous Highlighted Error`
+<kbd>OPT</kbd>+<kbd>[</kbd> === `Previous Highlighted Error`
 
-<kbd>CMD</kbd>+<kbd>]</kbd> === `Next Highlighted Error`
+<kbd>OPT</kbd>+<kbd>]</kbd> === `Next Highlighted Error`
 
-<kbd>CMD</kbd>+<kbd>Backslash(\)</kbd> === `Clear All Notificactions`
+<kbd>OPT</kbd>+<kbd>Backslash(\)</kbd> === `Error Description`
 
 </details>
 
@@ -352,6 +366,18 @@
 <kbd>CMD</kbd>+<kbd>Y</kbd> === `Redo`
 
 </details>
+
+<details>
+<summary>Co-pilot</summary>
+
+<kbd>OPT</kbd>,<kbd>S</kbd> === `Copilot: Show Previous Completion`
+
+<kbd>OPT</kbd>+<kbd>.</kbd> === `Copilot: Show Next Completion`
+
+<kbd>OPT</kbd>+<kbd>/</kbd> === `Copilot: Show Completions`
+
+</details>
+
 
 
 
