@@ -369,7 +369,7 @@
 
 <details>
 <summary>
-<strong>Snippets<strong>
+Snippets
 </summary>
 
 <kbd>OPT</kbd>+<kbd>SPACE</kbd> === `Insert Live Templates`
