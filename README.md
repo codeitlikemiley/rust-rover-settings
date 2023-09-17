@@ -5,16 +5,19 @@
 
 <details>
 <summary>
-<strong>Import rust-rover-settings.zip<strong>
+<strong>1. Import rust-rover-settings.zip<strong>
 </summary>
 
+[Download Settings](https://github.com/codeitlikemiley/rust-rover-settings/raw/main/rust-rover-settings.zip)
+
 ![Alt text](import_settings.png)
+
 
 </details>
 
 <details>
 <summary>
-Install  Plugins
+2. Install  Plugins
 </summary>
 
 - IdeaVim
@@ -28,12 +31,17 @@ Install  Plugins
 
 
 <details>
-  <summary>Load `codeitlikemiley` keymap</summary>
+  <summary>3. Load `codeitlikemiley` keymap</summary>
 
 ![Alt text](keymap.png)
 
 </details>
 
+### 4. [Download Move ideavimrc](https://github.com/codeitlikemiley/rust-rover-settings/blob/main/.ideavimrc)
+
+> Move the Downloaded file to your Home Directory `~/.ideavimrc`
+
+## 5. Learn The Keymap The Easy Way
 
 <details>
   <summary>Keybindings for Tool Windows</summary>
