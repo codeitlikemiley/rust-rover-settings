@@ -263,6 +263,8 @@
 
 <kbd>OPT</kbd> + <kbd>L</kbd>=== `Expand Selection`
 
+<kbd>OPT</kbd> + <kbd>;</kbd>=== `Surround with`
+
 </details>
 
 
