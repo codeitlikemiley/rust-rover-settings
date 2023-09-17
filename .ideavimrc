@@ -1,0 +1,70 @@
+"-------------GENERAL SETTINGS--------------"
+set showmode                    " always show what mode we're currently editing in "
+set nowrap                      " don't wrap lines "
+set backspace=indent,eol,start  " allow backspacing over everything in insert mode "
+set visualbell                  " don't beep "
+set noerrorbells                " don't beep "
+set timeout timeoutlen=3000 ttimeoutlen=10 " Whichkey uses this, adjust to your preference
+
+"------------BETTER LINENUMBERS-------------"
+set number! relativenumber!
+
+"------------USE SYSTEM CLIPBOARD-----------"
+set clipboard+=unnamed
+
+"------------SET LEADER KEY-----------------"
+let mapleader=" "
+
+" Use Q for formatting the current paragraph (or selection)
+vmap Q gq
+nmap Q gqap
+
+"-------------BETTER SEARCH--------------"
+highlight Search cterm=underline
+set ignorecase                              " ignore case when searching "
+set smartcase                               " ignore case if search pattern is all lowercase "
+set hlsearch                                " Highlight all matched terms. "
+set incsearch                               " Incrementally highlight, as we type. "
+
+
+nmap ,<space> :nohlsearch<cr>
+
+
+"-------------BETTER INDENTATION--------------"
+set autoindent                  " always set autoindenting on "
+set copyindent                  " copy the previous indentation on autoindenting "
+
+
+"-------------BETTER TABBING--------------"
+set smarttab
+set tabstop=4                   " a tab is four spaces "
+set softtabstop=4               " when hitting <BS>, pretend like a tab is removed, even if spaces "
+set expandtab                   " expand tabs by default (overloadable per file type later) "
+set shiftwidth=4                " number of spaces to use for autoindenting "
+set shiftround                  " use multiple of shiftwidth when indenting with '<' and '>' "
+
+" Splits open at the bottom and right, which is non-retarded, unlike vim defaults.
+	set splitbelow splitright
+"-------------BETTER SPLIT--------------"
+" Split Default Layout"
+    set splitbelow
+    set splitright
+    set fillchars+=stl:\ ,stlnc:\ "
+    hi VertSplit cterm=none ctermfg=red ctermbg=none
+
+" Opening splits "
+    nmap vsp :vsplit<cr>
+    nmap sp :split<cr>
+
+" Shortcutting split navigation, saving a keypress:
+	map <C-h> <C-w>h
+	map <C-j> <C-w>j
+	map <C-k> <C-w>k
+	map <C-l> <C-w>l
+
+" LOAD ALL IDEAVIM PLUGINS HERE
+"
+"
+set ideajoin "Smartly use Shift+J
+set sneak    "Quick Jump 
+set which-key 
