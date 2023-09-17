@@ -421,6 +421,17 @@
 
 </details>
 
+<details>
+<summary>Code Formatting</summary>
+
+
+<kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>I</kbd> === `Rust FMT`
+
+<kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>X</kbd> === `Dioxus FMT`
+
+
+</details>
+
 
 #### Emojis
 
