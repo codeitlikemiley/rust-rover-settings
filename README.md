@@ -334,7 +334,7 @@
 
 <kbd>CMD</kbd>+<kbd>Z</kbd> === `Undo`
 
-<kbd>CMD</kbd>+<kbd>SHIFT</kbd>>+<kbd>Z</kbd> === `Redo`
+<kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>Z</kbd> === `Redo`
 
 <kbd>CMD</kbd>+<kbd>Y</kbd> === `Undo`
 
