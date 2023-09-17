@@ -128,6 +128,22 @@
 
 <kbd>CMD</kbd> + <kbd>SHIFT</kbd> + <kbd>T</kbd>=== `Stop`
 
+<kbd>OPT</kbd> + <kbd>F1</kbd>=== `Step Into`
+
+<kbd>OPT</kbd> + <kbd>F2</kbd>=== `Step Over`
+
+<kbd>OPT</kbd> + <kbd>F3</kbd>=== `Step Out`
+
+<kbd>OPT</kbd> + <kbd>F4</kbd>=== `Pause Program`
+
+<kbd>OPT</kbd> + <kbd>SHIFT</kbd> + <kbd>R</kbd>=== `Resume Program`
+
+<kbd>SHIFT</kbd> + <kbd>F1</kbd>=== `Smart Step Into`
+
+<kbd>OPT</kbd> + <kbd>SHIFT</kbd> + <kbd>F1</kbd>=== `Force Step Into`
+
+<kbd>OPT</kbd> + <kbd>SHIFT</kbd> + <kbd>F2</kbd>=== `Force Step Over`
+
 </details>
 
 <details>
