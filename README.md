@@ -4,15 +4,12 @@
 
 
 <details>
-<summary>
-<strong>1. Import rust-rover-settings.zip<strong>
-</summary>
-
-[Download Settings](https://github.com/codeitlikemiley/rust-rover-settings/raw/main/rust-rover-settings.zip)
-
-![Alt text](import_settings.png)
-
-
+  <summary onclick="event.preventDefault()">
+    <a href="https://github.com/codeitlikemiley/rust-rover-settings/raw/main/rust-rover-settings.zip">
+      <strong>1. Import rust-rover-settings.zip</strong>
+    </a>
+  </summary>
+  <img src="import_settings.png" alt="Alt text" />
 </details>
 
 <details>
