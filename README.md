@@ -312,13 +312,21 @@
 
 <details>
 <summary>
-<strong>Comments<strong>
+<strong>Comments and Folding<strong>
 </summary>
 
 
 <kbd>CMD</kbd>+<kbd>/</kbd> === `Comment`
 
-<kbd>CMD</kbd>+<kbd>SHIFT</kbd> +<kbd>/</kbd>=== `Comment`
+<kbd>CMD</kbd>+<kbd>SHIFT</kbd> +<kbd>/</kbd>=== `Block Comment`
+
+<kbd>CMD</kbd>+<kbd>-</kbd> === `Folding Collapse`
+
+<kbd>CMD</kbd>+<kbd>SHIFT</kbd> +<kbd>-</kbd>=== `Collapse All`
+
+<kbd>CMD</kbd>+<kbd>-</kbd> === `Folding Expand`
+
+<kbd>CMD</kbd>+<kbd>SHIFT</kbd> +<kbd>+</kbd>=== `Expand All`
 
 </details>
 
