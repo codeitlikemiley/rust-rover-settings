@@ -220,13 +220,13 @@ Install  Plugins
 <strong>OPT+ HJKL<strong>
 </summary>
 
-<kbd>CMD</kbd> + <kbd>H</kbd>=== `Shrink Selectiont`
+<kbd>OPT</kbd> + <kbd>H</kbd>=== `Shrink Selectiont`
 
-<kbd>CMD</kbd> + <kbd>J</kbd>=== `Move Line Down`
+<kbd>OPT</kbd> + <kbd>J</kbd>=== `Move Line Down`
 
-<kbd>CMD</kbd> + <kbd>K</kbd>=== `Move Line Up`
+<kbd>OPT</kbd> + <kbd>K</kbd>=== `Move Line Up`
 
-<kbd>CMD</kbd> + <kbd>L</kbd>=== `Expand Selection`
+<kbd>OPT</kbd> + <kbd>L</kbd>=== `Expand Selection`
 
 </details>
 
@@ -238,13 +238,13 @@ Install  Plugins
 
 <strong>Mainly Use on for Navigating between Vim Splits</strong>
 
-<kbd>CMD</kbd> + <kbd>H</kbd>=== `Move Left Pane`
+<kbd>CTRL</kbd> + <kbd>H</kbd>=== `Move Left Pane`
 
-<kbd>CMD</kbd> + <kbd>J</kbd>=== `Move Down Pane`
+<kbd>CTRL</kbd> + <kbd>J</kbd>=== `Move Down Pane`
 
-<kbd>CMD</kbd> + <kbd>K</kbd>=== `Move Up Pane`
+<kbd>CTRL</kbd> + <kbd>K</kbd>=== `Move Up Pane`
 
-<kbd>CMD</kbd> + <kbd>L</kbd>=== `Move Right Pane`
+<kbd>CTRL</kbd> + <kbd>L</kbd>=== `Move Right Pane`
 
 </details>
 
@@ -297,7 +297,7 @@ Install  Plugins
 
 <kbd>CMD</kbd>+<kbd>]</kbd> === `Next Highlighted Error`
 
-<kbd>CMD</kbd>+<kbd>\</kbd> === `Clear All Notificactions`
+<kbd>CMD</kbd>+<kbd>Backslash(\)</kbd> === `Clear All Notificactions`
 
 </details>
 
