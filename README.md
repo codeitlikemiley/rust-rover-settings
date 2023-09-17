@@ -6,7 +6,7 @@
 <details>
   <summary onclick="event.preventDefault()">
     <a href="https://github.com/codeitlikemiley/rust-rover-settings/raw/main/rust-rover-settings.zip">
-      <strong>1. Import rust-rover-settings.zip</strong>
+      <strong>1. Download and Import rust-rover-settings.zip</strong>
     </a>
   </summary>
   <img src="import_settings.png" alt="Alt text" />
