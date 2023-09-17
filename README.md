@@ -464,7 +464,7 @@ also we need to check what arguments we can use
 
 we can run `dx --help`
 
-<code>
+```sh
 dx --help
 Build, Bundle & Ship Dioxus Apps
 
@@ -488,11 +488,11 @@ Options:
       --bin <BIN>  Specify bin target
   -h, --help       Print help
   -V, --version    Print version
-</code>
+```
 
 Get `dx fmt` argurments
 
-<code>
+```sh
 dx fmt --help
 Format some rsx
 
@@ -504,7 +504,7 @@ Options:
   -f, --file <FILE>  Input file
       --bin <BIN>    Specify bin target
   -h, --help         Print help
-</code>
+```
 
 in order to format a file we need to use -f parameter
 
