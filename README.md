@@ -4,7 +4,7 @@
 
 
 <details>
-  <summary onclick="event.preventDefault()">
+  <summary>
     <a href="https://github.com/codeitlikemiley/rust-rover-settings/raw/main/rust-rover-settings.zip">
       <strong>1. Download and Import rust-rover-settings.zip</strong>
     </a>
