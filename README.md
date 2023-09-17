@@ -364,13 +364,11 @@
 <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>N</kbd> === `Refactor: Copy`
 
 
-</details
+</details>
 
 
 <details>
-<summary>
-Snippets
-</summary>
+<summary>Snippets</summary>
 
 <kbd>OPT</kbd>+<kbd>SPACE</kbd> === `Insert Live Templates`
 
