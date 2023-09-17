@@ -246,6 +246,8 @@
 
 <kbd>CTRL</kbd> + <kbd>0</kbd>=== `Go to Bookmark 0`
 
+<kbd>OPT</kbd> + <kbd>X</kbd>=== `Pin Active Tab`
+
 </details>
 
 
@@ -398,7 +400,7 @@
 <details>
 <summary>Co-pilot</summary>
 
-<kbd>OPT</kbd>,<kbd>S</kbd> === `Copilot: Show Previous Completion`
+<kbd>OPT</kbd>+<kbd>,</kbd> === `Copilot: Show Previous Completion`
 
 <kbd>OPT</kbd>+<kbd>.</kbd> === `Copilot: Show Next Completion`
 
@@ -406,7 +408,21 @@
 
 </details>
 
+<details>
+<summary>Clutter Free</summary>
 
+<kbd>OPT</kbd>+<kbd>z</kbd> === `Toggle Zen Mode`
+
+<kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>z</kbd> === `Toggle Distraction Free Mode`
+
+<kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>\\</kbd> === `Clear All Notification`
+
+</details>
+
+
+#### Emojis
+
+<kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>E</kbd> === `Emoji Symbols`
 
 
 ## Customizing IdeaVim Keys
