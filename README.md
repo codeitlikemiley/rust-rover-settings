@@ -5,7 +5,16 @@
 
 <details>
 <summary>
-<strong>Install the FF: Plugins<strong>
+<strong>Import rust-rover-settings.zip<strong>
+</summary>
+
+![Alt text](import_settings.png)
+
+</details>
+
+<details>
+<summary>
+Install  Plugins
 </summary>
 
 - IdeaVim
@@ -19,7 +28,7 @@
 
 
 <details>
-  <summary>Load `codeitlikemiley` keybindings</summary>
+  <summary>Load `codeitlikemiley` keymap</summary>
 
 ![Alt text](keymap.png)
 
@@ -293,7 +302,7 @@
 </details>
 
 
-details>
+<details>
 <summary>
 <strong>Snippets<strong>
 </summary>
