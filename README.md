@@ -77,6 +77,8 @@
 
 <kbd>OPT</kbd> + <kbd>C</kbd> === `Tool Windows: Commit`
 
+<kbd>OPT</kbd> + <kbd>D</kbd> === `Tool Windows: Debug`
+
 <kbd>OPT</kbd> + <kbd>G</kbd>=== `Tool Windows: Git`
 
 <kbd>OPT</kbd> + <kbd>B</kbd> === `Tool Windows: Build`
@@ -433,11 +435,95 @@ check list of Actions we can bind with .IdeaVim to our Keys
 :actionlist
 ```
 
-We can add e.g. to our `~/.ideavimrc`
+We can add custom bindings to our `~/.ideavimrc`
 
 ```sh
 nmap <leader>v :action Tool_External Tools_gvim<cr>
 ```
+
+## Custom Keymap to Invoke External CLI Commands
+
+This is useful e.g. , We wanna add <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>X</kbd> to format RSX in rust with Dioxus CLI
+
+<details>
+<summary>See How To do It</summary>
+
+Open settings with CMD + ,
+
+Go to Tools -> External Tools
+
+Then Click (+) Sign to Create new External Tool
+
+![Alt text](external-tools.png)
+
+To Get the Path of Command Use which e.g.
+
+which dx , outputs: /Users/uriah/.cargo/bin/dx
+
+also we need to check what arguments we can use
+
+we can run `dx --help`
+
+<code>
+dx --help
+Build, Bundle & Ship Dioxus Apps
+
+Usage: dx [OPTIONS] <COMMAND>
+
+Commands:
+  build      Build the Rust WASM app and all of its assets
+  translate  Translate some source file into Dioxus code
+  serve      Build, watch & serve the Rust WASM app and all of its assets
+  create     Init a new project for Dioxus
+  clean      Clean output artifacts
+  bundle     Bundle the Rust desktop app and all of its assets
+  version    Print the version of this extension
+  fmt        Format some rsx
+  check      Check the Rust files in the project for issues
+  config     Dioxus config file controls
+  help       Print this message or the help of the given subcommand(s)
+
+Options:
+  -v               Enable verbose logging
+      --bin <BIN>  Specify bin target
+  -h, --help       Print help
+  -V, --version    Print version
+</code>
+
+Get `dx fmt` argurments
+
+<code>
+dx fmt --help
+Format some rsx
+
+Usage: dx fmt [OPTIONS]
+
+Options:
+  -c, --check        Run in 'check' mode. Exits with 0 if input is formatted correctly. Exits with 1 and prints a diff if formatting is required
+  -r, --raw <RAW>    Input rsx (selection)
+  -f, --file <FILE>  Input file
+      --bin <BIN>    Specify bin target
+  -h, --help         Print help
+</code>
+
+in order to format a file we need to use -f parameter
+
+to get the filepath we can get it with Insert Macro
+
+Just Click the Plus sign as shown on the image below.
+
+![Alt text](macro.png)
+
+We got `$FilePath$`
+
+![Alt text](create_tool.png)
+
+Click Insert then Go Bind the KeyMap
+
+![Alt text](bind-dx-fmt.png)
+
+</details>
+
 
 
 
