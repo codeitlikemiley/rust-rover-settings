@@ -254,18 +254,18 @@
 
 <details>
 <summary>
-<strong>CTRL+ HJKL<strong>
+<strong>CMD + HJKL<strong>
 </summary>
 
 <strong>Mainly Use on for Navigating between Vim Splits</strong>
 
-<kbd>CTRL</kbd> + <kbd>H</kbd>=== `Move Left Pane`
+<kbd>CMD</kbd> + <kbd>H</kbd>=== `Move Left Pane`
 
-<kbd>CTRL</kbd> + <kbd>J</kbd>=== `Move Down Pane`
+<kbd>CMD</kbd> + <kbd>J</kbd>=== `Move Down Pane`
 
-<kbd>CTRL</kbd> + <kbd>K</kbd>=== `Move Up Pane`
+<kbd>CMD</kbd> + <kbd>K</kbd>=== `Move Up Pane`
 
-<kbd>CTRL</kbd> + <kbd>L</kbd>=== `Move Right Pane`
+<kbd>CMD</kbd> + <kbd>L</kbd>=== `Move Right Pane`
 
 </details>
 

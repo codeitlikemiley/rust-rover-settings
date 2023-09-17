@@ -57,14 +57,14 @@ set shiftround                  " use multiple of shiftwidth when indenting with
     nmap sp :split<cr>
 
 " Shortcutting split navigation, saving a keypress:
-	map <C-h> <C-w>h
-	map <C-j> <C-w>j
-	map <C-k> <C-w>k
-	map <C-l> <C-w>l
+	map <D-h> <C-w>h
+	map <D-j> <C-w>j
+	map <D-k> <C-w>k
+	map <D-l> <C-w>l
 
 " LOAD ALL IDEAVIM PLUGINS HERE
 "
 "
 set ideajoin "Smartly use Shift+J
-set sneak    "Quick Jump 
-set which-key 
+set sneak    "Quick Jump
+set which-key
