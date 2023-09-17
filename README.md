@@ -246,8 +246,6 @@
 
 <kbd>CTRL</kbd> + <kbd>0</kbd>=== `Go to Bookmark 0`
 
-<kbd>OPT</kbd> + <kbd>X</kbd>=== `Pin Active Tab`
-
 </details>
 
 
@@ -309,6 +307,8 @@
 <kbd>CMD</kbd> + <kbd>8</kbd>=== `Select Tab 8`
 
 <kbd>CMD</kbd> + <kbd>9</kbd>=== `Select Tab 9`
+
+<kbd>OPT</kbd> + <kbd>X</kbd>=== `Pin Active Tab`
 
 </details>
 
