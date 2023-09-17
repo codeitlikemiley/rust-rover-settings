@@ -338,6 +338,24 @@
 
 </details>
 
+<details>
+<summary>File Manipulation</summary>
+
+<kbd>CMD</kbd>+<kbd>N</kbd> === `New File`
+
+<kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>N</kbd> === `New Directory`
+
+<kbd>OPT</kbd>+<kbd>N</kbd> === `New Rust File`
+
+<kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>N</kbd> === `New Crate`
+
+<kbd>OPT</kbd>+<kbd>M</kbd> === `Refactor: Move`
+
+<kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>N</kbd> === `Refactor: Copy`
+
+
+</details
+
 
 <details>
 <summary>
