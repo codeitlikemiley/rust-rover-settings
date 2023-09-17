@@ -115,6 +115,8 @@
 
 <kbd>CMD</kbd> + <kbd>SHIFT</kbd> + <kbd>R</kbd>=== `Re-Run Last Command`
 
+<kbd>CMD</kbd> + <kbd>SHIFT</kbd> + <kbd>P</kbd>=== `Invoke Cargo Run Commands`
+
 </details>
 
 <details>
