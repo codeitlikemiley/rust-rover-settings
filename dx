@@ -1,0 +1,7 @@
+#!/bin/bash
+
+pbpaste > /tmp/rsx.rs
+
+dx translate -f /tmp/rsx.rs -o /tmp/rsx.rs
+
+cat /tmp/rsx.rs | pbcopy
