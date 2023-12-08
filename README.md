@@ -143,6 +143,64 @@ Mainly used for refactoring and documentation
 
 </details>
 
+<details>
+<summary>
+<strong>Errors / Warning</strong>
+</summary>
+
+| Keyboard Shortcut                             | Description                        |
+| --------------------------------------------- | ---------------------------------- |
+| <kbd>OPT</kbd>+<kbd>P</kbd>                   | Tool Windows -> Problems           |
+| <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>P</kbd>  | Run Rust External Linter           |
+| <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>I</kbd>  | Inspect Code with Editor Settings  |
+| <kbd>CMD</kbd>+<kbd>E</kbd>                   | Next Highlighted Error             |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>E</kbd>  | Previous Highlighted Error         |
+| <kbd>HYPER</kbd>+<kbd>CMD</kbd>+<kbd>J</kbd>  | Jump to Source                     |
+| <kbd>HYPER</kbd>+<kbd>CMD</kbd>+<kbd>K</kbd>  | Jump to Navigation bar             |
+
+</details>
+
+
+<details>
+<summary>
+<strong>Auto Complete</strong>
+</summary>
+
+| Keyboard Shortcut                             | Description                     |
+| --------------------------------------------- | ------------------------------- |
+| <kbd>OPT</kbd>+<kbd>,</kbd>                   | Cyclic Expand Word Backward     |
+| <kbd>OPT</kbd>+<kbd>.</kbd>                   | Cyclic Expand Word              |
+| <kbd>CTRL</kbd>+<kbd>Space</kbd>              | Basic                           |
+| <kbd>CTRL</kbd>+<kbd>SHIFT</kbd>+<kbd>Space</kbd> | Type Matching           |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>Enter</kbd>  | Complete Current Statement  |
+| <kbd>TAB</kbd>                                | Insert Inline Proposal          |
+
+</details>
+
+<details>
+<summary>
+<strong>Code Generations</strong>
+</summary>
+
+| Keyboard Shortcut                             | Description         |
+| --------------------------------------------- | ------------------- |
+| <kbd>OPT</kbd>+<kbd>O</kbd>                   | Override Methods    |
+| <kbd>OPT</kbd>+<kbd>I</kbd>                   | Implement Methods   |
+| <kbd>OPT</kbd>+<kbd>G</kbd>                   | Generate            |
+
+</details>
+
+<details>
+<summary>
+<strong>Quickly Jump from One Place to Another</strong>
+</summary>
+
+| Keyboard Shortcut            | Description                    |
+| ---------------------------- | ------------------------------ |
+| <kbd>OPT</kbd>+<kbd>Z</kbd>  | Activate / Cycle AceJump Mode  |
+
+</details>
+
 
 <details>
 <summary>
@@ -182,14 +240,21 @@ Mainly used for refactoring and documentation
 
 <details>
 <summary>
-<strong>Search and Replace<strong>
+<strong>All About Files Search, Opening</strong>
 </summary>
 
-<kbd>OPT</kbd> + <kbd>S</kbd>=== `Replace`
-
-<kbd>OPT</kbd> + <kbd>SHIFT</kbd> + <kbd>S</kbd>=== `Replace in Files`
+| Keyboard Shortcut                           | Description       |
+| ------------------------------------------- | ----------------- |
+| <kbd>CMD</kbd>+<kbd>F</kbd>                 | Find              |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>F</kbd>| Find in Files     |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>U</kbd>| Find Usages       |
+| <kbd>CMD</kbd>+<kbd>P</kbd>                 | Search Everywhere |
+| <kbd>CMD</kbd>+<kbd>O</kbd>                 | Go to Type        |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>P</kbd>| Go To Files       |
+| <kbd>CTRL</kbd>+<kbd>O</kbd>                | Open Files        |
 
 </details>
+
 
 <details>
 <summary>
@@ -336,42 +401,52 @@ Mainly used for refactoring and documentation
 
 
 <details>
-<summary>Co-pilot</summary>
+<summary>
+<strong>Copilot</strong>
+</summary>
 
-<kbd>OPT</kbd>+<kbd>,</kbd> === `Copilot: Show Previous Completion`
-
-<kbd>OPT</kbd>+<kbd>.</kbd> === `Copilot: Show Next Completion`
-
-<kbd>OPT</kbd>+<kbd>/</kbd> === `Copilot: Show Completions`
+| Shortcut Keys                                 | Description                                    |
+| --------------------------------------------- | ---------------------------------------------- |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>H</kbd>  | Show Previous Completions                      |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>J</kbd>  | Apply Next line of Completion to Editor        |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>K</kbd>  | Apply Next Word of Completion to Editor        |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>L</kbd>  | Show Next Completion                           |
 
 </details>
+
 
 <details>
-<summary>Clutter Free</summary>
+<summary>
+<strong>Notifications</strong>
+</summary>
 
-<kbd>OPT</kbd>+<kbd>z</kbd> === `Toggle Zen Mode`
-
-<kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>z</kbd> === `Toggle Distraction Free Mode`
-
-<kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>\\</kbd> === `Clear All Notification`
+| Keyboard Shortcut                             | Description                  |
+| --------------------------------------------- | ---------------------------- |
+| <kbd>CMD</kbd>+<kbd>F12</kbd>                 | Tool Windows -> Notification |
+| <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>\\</kbd> | Clear all Notifications      |
 
 </details>
+
 
 <details>
-<summary>Code Formatting</summary>
+<summary>
+<strong>Context Menus</strong>
+</summary>
 
-
-<kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>I</kbd> === `Rust FMT`
-
-<kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>X</kbd> === `Dioxus FMT`
-
+| Keyboard Shortcut                             | Description          |
+| --------------------------------------------- | -------------------- |
+| <kbd>OPT</kbd>+<kbd>T</kbd>                   | External Tools       |
+| <kbd>OPT</kbd>+<kbd>Q</kbd>                   | Select In            |
+| <kbd>OPT</kbd>+<kbd>E</kbd>                   | Recent Files         |
+| <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>E</kbd>  | Recent Locations     |
+| <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>S</kbd>  | Replace in Files     |
+| <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>D</kbd>  | Debug                |
+| <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>C</kbd>  | Show Color Picker    |
+| <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>N</kbd>  | New Cargo Crate      |
+| <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>X</kbd>  | Copy Refactor        |
+| <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>M</kbd>  | Show Context Menu    |
 
 </details>
-
-
-#### Emojis
-
-<kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>E</kbd> === `Emoji Symbols`
 
 
 ## Customizing IdeaVim Keys
@@ -468,6 +543,35 @@ We got `$FilePath$`
 Click Insert then Go Bind the KeyMap
 
 ![Alt text](bind-dx-fmt.png)
+
+</details>
+
+
+#### Setting  Up Linear
+
+1. Go to Settings -> Tools -> Tasks -> Server 
+2. Add Server 
+3. Pick Linear
+4. Set:
+	- Team ID e.g (COD)
+	- API Key (Workspace API)
+	- Workspace ID (codeitlikemiley)
+5. Click Test
+
+| Linear Keys                 | Description |
+| --------------------------- | ----------- |
+| <kbd>CMD</kbd>+<kbd>\\</kbd> | Open Tasks  |
+
+
+<details>
+<summary>
+<strong>Pieces</strong>
+</summary>
+
+| Keyboard Shortcut                             | Description            |
+| --------------------------------------------- | ---------------------- |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>S</kbd>  | Save to Pieces         |
+| <kbd>CMD</kbd>+<kbd>F9</kbd>                  | Tool Windows -> Pieces |
 
 </details>
 
