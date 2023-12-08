@@ -162,27 +162,22 @@ Mainly used for refactoring and documentation
 
 <details>
 <summary>
-<strong>Go To<strong>
+<strong>GoTo</strong>
 </summary>
 
-<kbd>CMD</kbd> + <kbd>P</kbd>=== `Search Everywhere`
-
-<kbd>CMD</kbd> + <kbd>O</kbd>=== `Go to Type`
-
-<kbd>CMD</kbd> + <kbd>I</kbd>=== `Go to Implementations`
-
-<kbd>CMD</kbd> + <kbd>U</kbd>=== `Find Usage`
-
-<kbd>CMD</kbd> + <kbd>E</kbd>=== `Find Recent`
-
-<kbd>CMD</kbd> + <kbd>D</kbd>=== `Quick Definition`
-
-<kbd>CMD</kbd> + <kbd>G</kbd>=== `Go to Reference Action`
-
-<kbd>CMD</kbd> +<kbd>SHIFT</kbd> + <kbd>G</kbd>=== `Go to LineNumber:Column`
-
+| Keyboard Shortcut                                       | Description                    |
+| ------------------------------------------------------- | ------------------------------ |
+| <kbd>CMD</kbd>+<kbd>U</kbd> or <kbd>gd</kbd> (Vim)      | Go to Declaration or Usages    |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>U</kbd>            | Find Usages                    |
+| <kbd>CMD</kbd>+<kbd>I</kbd>                             | Go to Implementations          |
+| <kbd>CMD</kbd>+<kbd>Y</kbd>                             | Go to Super Method             |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>Y</kbd>            | Go to Declaration Type         |
+| <kbd>SHIFT</kbd>+<kbd>K</kbd> (Vim)                     | Quick Definition               |
+| <kbd>F1</kbd>                                           | Quick Documentation            |
+| <kbd>CMD</kbd>+<kbd>G</kbd>                             | Go to by Reference actions     |
 
 </details>
+
 
 
 <details>
@@ -198,40 +193,15 @@ Mainly used for refactoring and documentation
 
 <details>
 <summary>
-<strong>Bookmarks/Mnemonics<strong>
+<strong>Bookmarks</strong>
 </summary>
 
-<kbd>CMD</kbd> + <kbd>M</kbd>=== `Go to Mnemonic`
-
-<kbd>CMD</kbd> + <kbd>SHIFT</kbd> + <kbd>M</kbd>===  `Toggle Bookmark Mnemonic`
-
-<kbd>CMD</kbd> + <kbd>B</kbd>=== `Show Bookmarks`
-
-<kbd>CMD</kbd> + <kbd>SHIFT</kbd> + <kbd>B</kbd>=== `Toggle Bookmark/Mnemonic`
-
-
-<strong> GO TO Bookmark Number</strong>
-
-
-<kbd>CTRL</kbd> + <kbd>1</kbd>=== `Go to Bookmark 1`
-
-<kbd>CTRL</kbd> + <kbd>2</kbd>=== `Go to Bookmark 2`
-
-<kbd>CTRL</kbd> + <kbd>3</kbd>=== `Go to Bookmark 3`
-
-<kbd>CTRL</kbd> + <kbd>4</kbd>=== `Go to Bookmark 4`
-
-<kbd>CTRL</kbd> + <kbd>5</kbd>=== `Go to Bookmark 5`
-
-<kbd>CTRL</kbd> + <kbd>6</kbd>=== `Go to Bookmark 6`
-
-<kbd>CTRL</kbd> + <kbd>7</kbd>=== `Go to Bookmark 7`
-
-<kbd>CTRL</kbd> + <kbd>8</kbd>=== `Go to Bookmark 8`
-
-<kbd>CTRL</kbd> + <kbd>9</kbd>=== `Go to Bookmark 9`
-
-<kbd>CTRL</kbd> + <kbd>0</kbd>=== `Go to Bookmark 0`
+| Keyboard Shortcut                            | Description                    |
+| -------------------------------------------- | ------------------------------ |
+| <kbd>CMD</kbd>+<kbd>M</kbd>                  | Go to Mnemonic                 |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>M</kbd> | Toggle Bookmark Mnemonic       |
+| <kbd>CMD</kbd>+<kbd>B</kbd>                  | Show Bookmarks                 |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>B</kbd> | Toggle Bookmark / Mnemonic     |
 
 </details>
 
@@ -239,148 +209,131 @@ Mainly used for refactoring and documentation
 
 <details>
 <summary>
-<strong>OPT+ HJKL<strong>
+<strong>OPT (SHIFT) [H,J,K,L]</strong>
 </summary>
 
-<kbd>OPT</kbd> + <kbd>H</kbd>=== `Shrink Selectiont`
+#### Selection
+| Keyboard Shortcut                            | Description                |
+| -------------------------------------------- | -------------------------- |
+| <kbd>OPT</kbd>+<kbd>H</kbd>                  | Shrink Selection           |
+| <kbd>OPT</kbd>+<kbd>L</kbd>                  | Expand Selection           |
+| <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>H</kbd> | Show History for Selection |
+| <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>L</kbd> | Surround with              |
 
-<kbd>OPT</kbd> + <kbd>J</kbd>=== `Move Line Down`
+#### Moving Up and Down
+| Keyboard Shortcut                            | Description         |
+| -------------------------------------------- | ------------------- |
+| <kbd>OPT</kbd>+<kbd>J</kbd>                  | Move Line Down      |
+| <kbd>OPT</kbd>+<kbd>K</kbd>                  | Move Line Up        |
+| <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>J</kbd> | Move Statement Down |
+| <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>K</kbd> | Move Statement Up   |
 
-<kbd>OPT</kbd> + <kbd>K</kbd>=== `Move Line Up`
+</details>
 
-<kbd>OPT</kbd> + <kbd>L</kbd>=== `Expand Selection`
 
-<kbd>OPT</kbd> + <kbd>;</kbd>=== `Surround with`
+
+<details>
+<summary>
+<strong>Moving Panes on Splits</strong>
+</summary>
+
+| Keyboard Shortcut                        | Description        |
+| ---------------------------------------- | ------------------ |
+| <kbd>CTRL</kbd>+<kbd>H</kbd>             | Move to Left Pane  |
+| <kbd>CTRL</kbd>+<kbd>J</kbd>             | Move Down Pane     |
+| <kbd>CTRL</kbd>+<kbd>K</kbd>             | Move to Right Pane |
+| <kbd>CTRL</kbd>+<kbd>L</kbd>             | Move Up Pane       |
 
 </details>
 
 
 <details>
 <summary>
-<strong>CMD + HJKL<strong>
+<strong>Easy Tab Switching</strong>
 </summary>
 
-<strong>Mainly Use on for Navigating between Vim Splits</strong>
-
-<kbd>CMD</kbd> + <kbd>H</kbd>=== `Move Left Pane`
-
-<kbd>CMD</kbd> + <kbd>J</kbd>=== `Move Down Pane`
-
-<kbd>CMD</kbd> + <kbd>K</kbd>=== `Move Up Pane`
-
-<kbd>CMD</kbd> + <kbd>L</kbd>=== `Move Right Pane`
-
-</details>
-
-<details>
-<summary>
-<strong>Easy Tab Switching with CMD [1-9]<strong>
-</summary>
-
-<kbd>CMD</kbd> + <kbd>1</kbd>=== `Select Tab 1`
-
-<kbd>CMD</kbd> + <kbd>2</kbd>=== `Select Tab 2`
-
-<kbd>CMD</kbd> + <kbd>3</kbd>=== `Select Tab 3`
-
-<kbd>CMD</kbd> + <kbd>4</kbd>=== `Select Tab 4`
-
-<kbd>CMD</kbd> + <kbd>5</kbd>=== `Select Tab 5`
-
-<kbd>CMD</kbd> + <kbd>6</kbd>=== `Select Tab 6`
-
-<kbd>CMD</kbd> + <kbd>7</kbd>=== `Select Tab 7`
-
-<kbd>CMD</kbd> + <kbd>8</kbd>=== `Select Tab 8`
-
-<kbd>CMD</kbd> + <kbd>9</kbd>=== `Select Tab 9`
-
-<kbd>OPT</kbd> + <kbd>X</kbd>=== `Pin Active Tab`
-
-</details>
-
-<details>
-<summary>
-<strong>Comments and Folding<strong>
-</summary>
-
-
-<kbd>CMD</kbd>+<kbd>/</kbd> === `Comment`
-
-<kbd>CMD</kbd>+<kbd>SHIFT</kbd> +<kbd>/</kbd>=== `Block Comment`
-
-<kbd>CMD</kbd>+<kbd>-</kbd> === `Folding Collapse`
-
-<kbd>CMD</kbd>+<kbd>SHIFT</kbd> +<kbd>-</kbd>=== `Collapse All`
-
-<kbd>CMD</kbd>+<kbd>-</kbd> === `Folding Expand`
-
-<kbd>CMD</kbd>+<kbd>SHIFT</kbd> +<kbd>+</kbd>=== `Expand All`
+| Keyboard Shortcut                | Description       |
+| -------------------------------- | ----------------- |
+| <kbd>CMD</kbd>+<kbd>[1-9]</kbd>  | Select Tab [1-9]  |
 
 </details>
 
 
 <details>
 <summary>
-<strong>Quick Fixes / Warnings<strong>
+<strong>Comments Folding</strong>
 </summary>
 
-<kbd>CMD</kbd>+<kbd>.</kbd> === `Quick Fixes`
-
-<kbd>OPT</kbd>+<kbd>[</kbd> === `Previous Highlighted Error`
-
-<kbd>OPT</kbd>+<kbd>]</kbd> === `Next Highlighted Error`
-
-<kbd>OPT</kbd>+<kbd>Backslash(\)</kbd> === `Error Description`
-
-</details>
-
-<details>
-<summary>File Manipulation</summary>
-
-<kbd>CMD</kbd>+<kbd>N</kbd> === `New File`
-
-<kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>N</kbd> === `New Directory`
-
-<kbd>OPT</kbd>+<kbd>N</kbd> === `New Rust File`
-
-<kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>N</kbd> === `New Crate`
-
-<kbd>OPT</kbd>+<kbd>M</kbd> === `Refactor: Move`
-
-<kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>N</kbd> === `Refactor: Copy`
-
+| Keyboard Shortcut                              | Description                |
+| ---------------------------------------------- | -------------------------- |
+| <kbd>CMD</kbd>+<kbd>/</kbd>                    | Comment with Line Comment  |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>/</kbd>   | Comment with Block Comment |
+| <kbd>CMD</kbd>+<kbd>(-)</kbd>                  | Folding Collapse           |
+| <kbd>CMD</kbd>+<kbd>(+)</kbd>                  | Folding Expand             |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>(-)</kbd> | Collapse All               |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>(+)</kbd> | Expand All                 |
 
 </details>
 
 
 <details>
-<summary>Snippets</summary>
+<summary>
+<strong>Type Hinting, Quick Fixes</strong>
+</summary>
 
-<kbd>OPT</kbd>+<kbd>SPACE</kbd> === `Insert Live Templates`
+| Keyboard Shortcut                             | Description                          |
+| --------------------------------------------- | ------------------------------------ |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>.</kbd>  | Parameter Info                       |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>I</kbd>  | Type Info                            |
+| <kbd>CMD</kbd>+<kbd>.</kbd>                   | Show Context and Show Quick Fixes    |
 
-<kbd>OPT</kbd>+<kbd>T</kbd> === `Save Highlighted Text to Live Template`
+</details>
+
+
+<details>
+<summary>
+<strong>File Manipulation</strong>
+</summary>
+
+| Shortcut Keys                                  | Description       |
+| ---------------------------------------------- | ----------------- |
+| <kbd>CMD</kbd>+<kbd>N</kbd>                    | New File          |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>N</kbd>   | New Directory     |
+| <kbd>OPT</kbd>+<kbd>N</kbd>                    | New Rust File     |
+| <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>N</kbd>   | New Crate         |
+
+</details>
+
+
+
+<details>
+<summary>
+<strong>Snippets</strong>
+</summary>
+
+| Shortcut Keys                          | Description                 |
+| -------------------------------------- | --------------------------- |
+| <kbd>OPT</kbd>+<kbd>F1</kbd>           | Insert Live Template        |
+| <kbd>OPT</kbd>+<kbd>F2</kbd>           | Surround with Live Template |
+| <kbd>OPT</kbd>+<kbd>F3</kbd>           | Save as Live Template       |
 
 </details>
 
 <details>
 <summary>
-<strong>Copy / Paste / Save / Undo / Redo<strong>
+<strong>Copy / Paste / Undo / Redo</strong>
 </summary>
 
-<kbd>CMD</kbd>+<kbd>S</kbd> === `Save all`
-
-<kbd>CMD</kbd>+<kbd>X</kbd> === `Cut`
-
-<kbd>CMD</kbd>+<kbd>V</kbd> === `Paste`
-
-<kbd>CMD</kbd>+<kbd>Z</kbd> === `Undo`
-
-<kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>Z</kbd> === `Redo`
-
-<kbd>CMD</kbd>+<kbd>Y</kbd> === `Redo`
+| Shortcut Keys                                 | Description |
+| --------------------------------------------- | ----------- |
+| <kbd>CMD</kbd>+<kbd>S</kbd>                   | Save all    |
+| <kbd>CMD</kbd>+<kbd>X</kbd>                   | Cut         |
+| <kbd>CMD</kbd>+<kbd>V</kbd>                   | Paste       |
+| <kbd>CMD</kbd>+<kbd>Z</kbd>                   | Undo        |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>Z</kbd>  | Redo        |
 
 </details>
+
 
 <details>
 <summary>Co-pilot</summary>
