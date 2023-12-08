@@ -21,9 +21,11 @@
 - IdeaVim-Sneak
 - Whichkey
 - .env file support
-- Better highlights
+- Key Promoter X
 - Github Copilot
-
+- Ace Jump
+- Linear
+  
 </details>
 
 
