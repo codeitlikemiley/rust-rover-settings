@@ -41,55 +41,54 @@
 #### 5. Learn The Keymap The Easy Way
 
 <details>
-  <summary>Keybindings for Tool Windows</summary>
+<summary>
+<strong>Top Left Sidebar Tool Windows</strong>
+</summary>
 
-### <strong>Upper Left SideBar Keybindings</strong>
-
-![Alt text](upper-sidebar.png)
-
-<kbd>CMD</kbd> + <kbd>F1</kbd> === `Tool Windows: Project`
-
-<kbd>CMD</kbd> + <kbd>F2</kbd> === `Tool Windows: Structure`
-
-<kbd>CMD</kbd> + <kbd>F3</kbd> === `Tool Windows: Bookmarks`
-
-<kbd>CMD</kbd> + <kbd>F4</kbd> === `Tool Windows: TODO`
-
-<kbd>CMD</kbd> + <kbd>F5</kbd> === `Refresh Cargo Projects`
-
-
-### <strong>Right SideBar Keybindings</strong>
-
-![Alt text](right-sidebar.png)
-
-<kbd>CMD</kbd> + <kbd>F12</kbd> === `Tool Windows: Notifications`
-
-<kbd>CMD</kbd> + <kbd>F11</kbd> === `Tool Windows: Cargo`
-
-<kbd>CMD</kbd> + <kbd>F10</kbd> === `Tool Windows: Database`
-
-<kbd>CMD</kbd> + <kbd>F9</kbd> === `Tool Windows: Github Co-pilot`
-
-
-### <strong>Lower Left SideBar Keybindings</strong>
-
-![Alt text](lower-sidebar.png)
-
-<kbd>OPT</kbd> + <kbd>C</kbd> === `Tool Windows: Commit`
-
-<kbd>OPT</kbd> + <kbd>D</kbd> === `Tool Windows: Debug`
-
-<kbd>OPT</kbd> + <kbd>G</kbd>=== `Tool Windows: Git`
-
-<kbd>OPT</kbd> + <kbd>B</kbd> === `Tool Windows: Build`
-
-<kbd>OPT</kbd> + <kbd>R</kbd> === `Tool Windows: Run`
-
-<kbd>OPT</kbd> + <kbd>P</kbd> === `Tool Windows: Problems`
-
-<kbd>CMD</kbd> + <kbd>TILDA</kbd> === `Tool Windows: Terminal`
+| Tool Window Keys (CMD+Fn Keys) Leftsidebar | Description       |
+| ------------------------------------------ | ----------------- |
+| <kbd>CMD</kbd>+<kbd>F1</kbd>               | Project           |
+| <kbd>CMD</kbd>+<kbd>F2</kbd>               | Structure         |
+| <kbd>CMD</kbd>+<kbd>F3</kbd>               | Cargo             |
+| <kbd>CMD</kbd>+<kbd>F4</kbd>               | Make              |
+| <kbd>CMD</kbd>+<kbd>F5</kbd>               | Bookmarks         |
 
 </details>
+
+
+<details>
+<summary>
+<strong>Top Right Sidebar Tool Windows</strong>
+</summary>
+
+| Tool Window Keys (CMD+Fn Keys) RightSidebar | Description                      |
+| ------------------------------------------- | -------------------------------- |
+| <kbd>CMD</kbd>+<kbd>F12</kbd>               | Notifications                    |
+| <kbd>CMD</kbd>+<kbd>F11</kbd>               | Key Promoter X (Plugin Required) |
+| <kbd>CMD</kbd>+<kbd>F10</kbd>               | Database                         |
+| <kbd>CMD</kbd>+<kbd>F9</kbd>                | Pieces                           |
+
+</details>
+
+
+<details>
+<summary>
+<strong>Bottom Left Sidebar Tool Windows</strong>
+</summary>
+
+| Tool Window Keys (OPT+Keys) Leftsidebar Bottom | Description |
+| ---------------------------------------------- | ----------- |
+| <kbd>OPT</kbd>+<kbd>C</kbd>                    | Commit      |
+| <kbd>OPT</kbd>+<kbd>B</kbd>                    | Build       |
+| <kbd>OPT</kbd>+<kbd>A</kbd>                    | Services    |
+| <kbd>OPT</kbd>+<kbd>P</kbd>                    | Problems    |
+| <kbd>OPT</kbd>+<kbd>D</kbd>                    | Debug       |
+| <kbd>OPT</kbd>+<kbd>F</kbd>                    | Find        |
+| <kbd>OPT</kbd>+<kbd>R</kbd>                    | Run         |
+
+</details>
+
+
 
 <details>
 <summary>
