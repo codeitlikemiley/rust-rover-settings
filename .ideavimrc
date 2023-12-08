@@ -1,41 +1,35 @@
+
 "-------------GENERAL SETTINGS--------------"
 set showmode                    " always show what mode we're currently editing in "
 set nowrap                      " don't wrap lines "
 set backspace=indent,eol,start  " allow backspacing over everything in insert mode "
 set visualbell                  " don't beep "
 set noerrorbells                " don't beep "
-set timeout timeoutlen=3000 ttimeoutlen=10 " Whichkey uses this, adjust to your preference
-
-"------------BETTER LINENUMBERS-------------"
-set number! relativenumber!
-
-"------------USE SYSTEM CLIPBOARD-----------"
+set timeout timeoutlen=3000 ttimeoutlen=10
 set clipboard+=unnamed
-
-"------------SET LEADER KEY-----------------"
+set number! relativenumber!
 let mapleader=" "
 
 " Use Q for formatting the current paragraph (or selection)
 vmap Q gq
 nmap Q gqap
 
-"-------------BETTER SEARCH--------------"
+"-------------SEARCH--------------"
 highlight Search cterm=underline
 set ignorecase                              " ignore case when searching "
 set smartcase                               " ignore case if search pattern is all lowercase "
 set hlsearch                                " Highlight all matched terms. "
 set incsearch                               " Incrementally highlight, as we type. "
 
-
 nmap ,<space> :nohlsearch<cr>
 
 
-"-------------BETTER INDENTATION--------------"
+"-------------INDENTION--------------"
 set autoindent                  " always set autoindenting on "
 set copyindent                  " copy the previous indentation on autoindenting "
 
 
-"-------------BETTER TABBING--------------"
+"-------------TABS--------------"
 set smarttab
 set tabstop=4                   " a tab is four spaces "
 set softtabstop=4               " when hitting <BS>, pretend like a tab is removed, even if spaces "
@@ -45,7 +39,7 @@ set shiftround                  " use multiple of shiftwidth when indenting with
 
 " Splits open at the bottom and right, which is non-retarded, unlike vim defaults.
 	set splitbelow splitright
-"-------------BETTER SPLIT--------------"
+"-------------Split Management--------------"
 " Split Default Layout"
     set splitbelow
     set splitright
@@ -57,14 +51,34 @@ set shiftround                  " use multiple of shiftwidth when indenting with
     nmap sp :split<cr>
 
 " Shortcutting split navigation, saving a keypress:
-	map <D-h> <C-w>h
-	map <D-j> <C-w>j
-	map <D-k> <C-w>k
-	map <D-l> <C-w>l
+	map <C-h> <C-w>h
+	map <C-j> <C-w>j
+	map <C-k> <C-w>k
+	map <C-l> <C-w>l
 
-" LOAD ALL IDEAVIM PLUGINS HERE
+
+" Idea Vim Plugins
 "
 "
-set ideajoin "Smartly use Shift+J
-set sneak    "Quick Jump
+set ideajoin
+set sneak
 set which-key
+set NERDTree
+set easymotion
+set nowritebackup
+" all leader mappings
+"nmap <leader><space> <action>(GoToMenu)
+nmap <leader>b <action>(NERDTreeToggle)
+
+nmap <leader>gm <action>(Git.Menu)
+
+nmap <leader>0 <action>(GotoBookmark0)
+nmap <leader>1 <action>(GotoBookmark1)
+nmap <leader>2 <action>(GotoBookmark2)
+nmap <leader>3 <action>(GotoBookmark3)
+nmap <leader>4 <action>(GotoBookmark4)
+nmap <leader>5 <action>(GotoBookmark5)
+nmap <leader>6 <action>(GotoBookmark6)
+nmap <leader>7 <action>(GotoBookmark7)
+nmap <leader>8 <action>(GotoBookmark8)
+nmap <leader>9 <action>(GotoBookmark9)
