@@ -97,7 +97,7 @@
 </summary>
 Mainly used for refactoring and documentation
 
-| Fn Keys        | Description         |
+| Keyboard Shortcuts | Description     |
 | -------------- | ------------------- |
 | <kbd>F1</kbd>  | Quick Documentation |
 | <kbd>F2</kbd>  | Rename              |
@@ -108,77 +108,57 @@ Mainly used for refactoring and documentation
 
 </details>
 
+<details>
+<summary>
+<strong>Rust Runnables</strong>
+</summary>
 
+| Keyboard Shorcuts                            | Description               |
+| -------------------------------------------- | ------------------------- |
+| <kbd>CMD</kbd>+<kbd>R</kbd>                  | Run Context Configuration |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>R</kbd> | Re-Run                    |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>P</kbd> | Run Cargo Command         |
+| <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>F</kbd> | Format RSX                |
+| <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>V</kbd> | Html to RSX               |
+| <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>N</kbd> | New Cargo Crate           |
+
+</details>
 
 
 <details>
 <summary>
-<strong>Rust Runnables<strong>
+<strong>Debugging</strong>
 </summary>
 
-<kbd>CMD</kbd> + <kbd>R</kbd>=== `Run Under Cursor`
-
-<kbd>CMD</kbd> + <kbd>SHIFT</kbd> + <kbd>R</kbd>=== `Re-Run Last Command`
-
-<kbd>CMD</kbd> + <kbd>SHIFT</kbd> + <kbd>P</kbd>=== `Invoke Cargo Run Commands`
+| Keyboard Shorcuts                            | Description                 |
+| -------------------------------------------- | --------------------------- |
+| <kbd>CMD</kbd>+<kbd>T</kbd>                  | Debug Context Configuration |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>T</kbd> | Stop                        |
+| <kbd>CMD</kbd>+<kbd>D</kbd>                  | Resume Program              |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>D</kbd> | Toggle Breakpoint           |
+| <kbd>CMD</kbd>+<kbd>L</kbd>                  | Step Into                   |
+| <kbd>CMD</kbd>+<kbd>H</kbd>                  | Step Out                    |
+| <kbd>CMD</kbd>+<kbd>J</kbd>                  | Step Over                   |
+| <kbd>CMD</kbd>+<kbd>K</kbd>                  | Run to Cursor               |
 
 </details>
+
 
 <details>
 <summary>
-<strong>Rust Debug<strong>
+<strong>Multi-Cursor</strong>
 </summary>
 
-<kbd>CMD</kbd> + <kbd>T</kbd>=== `Run Debugger Under Cursor`
-
-<kbd>CMD</kbd> + <kbd>SHIFT</kbd> + <kbd>D</kbd>=== `Toggle Debugger Breakpoint`
-
-<kbd>CMD</kbd> + <kbd>SHIFT</kbd> + <kbd>T</kbd>=== `Stop`
-
-<kbd>OPT</kbd> + <kbd>F1</kbd>=== `Step Into`
-
-<kbd>OPT</kbd> + <kbd>F2</kbd>=== `Step Over`
-
-<kbd>OPT</kbd> + <kbd>F3</kbd>=== `Step Out`
-
-<kbd>OPT</kbd> + <kbd>F4</kbd>=== `Pause Program`
-
-<kbd>OPT</kbd> + <kbd>SHIFT</kbd> + <kbd>R</kbd>=== `Resume Program`
-
-<kbd>SHIFT</kbd> + <kbd>F1</kbd>=== `Smart Step Into`
-
-<kbd>OPT</kbd> + <kbd>SHIFT</kbd> + <kbd>F1</kbd>=== `Force Step Into`
-
-<kbd>OPT</kbd> + <kbd>SHIFT</kbd> + <kbd>F2</kbd>=== `Force Step Over`
+| Keyboard Shortcut                            | Description                                  |
+| --------------------------------------------- | -------------------------------------------- |
+| <kbd>CMD</kbd>+<kbd>]</kbd>                   | Find Next / Move to Next Occurrence          |
+| <kbd>CMD</kbd>+<kbd>[</kbd>                   | Find Previous / Move to Previous Occurrence |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>]</kbd>  | Unselect Previous Occurrence                |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>[</kbd>  | Add Selection for Next Occurrence           |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>\\</kbd> | Select All Occurrence                       |
 
 </details>
 
-<details>
-<summary>
-<strong>Find with Multi-Cursor<strong>
-</summary>
-
-<kbd>CMD</kbd> + <kbd>F</kbd>=== `Find`
-
-<kbd>CMD</kbd> + <kbd>]</kbd>=== `Find Next`
-
-<kbd>CMD</kbd> + <kbd>SHIFT</kbd> + <kbd>N</kbd>=== `Add Selection For Next Occurence`
-
-
-<kbd>CMD</kbd> + <kbd>[</kbd>=== `Find Previous`
-
-
-<kbd>CMD</kbd> + <kbd>SHIFT</kbd> + <kbd>N</kbd>=== `Unselect Occurence`
-
-
-<kbd>CMD</kbd> + <kbd>\\</kbd>=== `Select All Occurence`
-
-<kbd>CMD</kbd> + <kbd>SHIFT</kbd> + <kbd>F</kbd>=== `Find in Files`
-
-
-<kbd>OPT</kbd> + <kbd>SHIFT</kbd> + <kbd>F</kbd>=== `Open File in Finder`
-
-</details>
 
 <details>
 <summary>
