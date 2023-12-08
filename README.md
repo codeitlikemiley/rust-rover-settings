@@ -93,18 +93,21 @@
 
 <details>
 <summary>
-<strong>Keybindings for FN Keys<strong>
+<strong>Fn Keys</strong>
 </summary>
+Mainly used for refactoring and documentation
 
-<kbd>F1</kbd> === `Quick Documentation`
-
-<kbd>F2</kbd> === `Rename`
-
-<kbd>F3</kbd> === `Refactor`
-
-<kbd>F4</kbd> === `Jump To Source`
+| Fn Keys        | Description         |
+| -------------- | ------------------- |
+| <kbd>F1</kbd>  | Quick Documentation |
+| <kbd>F2</kbd>  | Rename              |
+| <kbd>F3</kbd>  | Refactor this       |
+| <kbd>F4</kbd>  | Change Signature    |
+| <kbd>F5</kbd>  | Refactor: Copy      |
+| <kbd>F6</kbd>  | Refactor: Move      |
 
 </details>
+
 
 
 
