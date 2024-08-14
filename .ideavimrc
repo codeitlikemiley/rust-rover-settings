@@ -7,7 +7,8 @@ set visualbell                  " don't beep "
 set noerrorbells                " don't beep "
 set timeout timeoutlen=3000 ttimeoutlen=10
 set clipboard+=unnamed
-set number! relativenumber!
+set relativenumber
+set number
 let mapleader=" "
 
 " Use Q for formatting the current paragraph (or selection)
@@ -61,16 +62,10 @@ set shiftround                  " use multiple of shiftwidth when indenting with
 "
 "
 set ideajoin
-set sneak
-set which-key
-set NERDTree
 set easymotion
 set nowritebackup
 " all leader mappings
-"nmap <leader><space> <action>(GoToMenu)
-nmap <leader>b <action>(NERDTreeToggle)
 
-nmap <leader>gm <action>(Git.Menu)
 
 nmap <leader>0 <action>(GotoBookmark0)
 nmap <leader>1 <action>(GotoBookmark1)
@@ -82,3 +77,87 @@ nmap <leader>6 <action>(GotoBookmark6)
 nmap <leader>7 <action>(GotoBookmark7)
 nmap <leader>8 <action>(GotoBookmark8)
 nmap <leader>9 <action>(GotoBookmark9)
+
+
+" Map leader keys to goto bookmarks A-Z
+nmap <leader>a <action>(GotoBookmarkA)
+nmap <leader>b <action>(GotoBookmarkB)
+nmap <leader>c <action>(GotoBookmarkC)
+nmap <leader>d <action>(GotoBookmarkD)
+nmap <leader>e <action>(GotoBookmarkE)
+nmap <leader>f <action>(GotoBookmarkF)
+nmap <leader>g <action>(GotoBookmarkG)
+nmap <leader>h <action>(GotoBookmarkH)
+nmap <leader>i <action>(GotoBookmarkI)
+nmap <leader>j <action>(GotoBookmarkJ)
+nmap <leader>k <action>(GotoBookmarkK)
+nmap <leader>l <action>(GotoBookmarkL)
+nmap <leader>m <action>(GotoBookmarkM)
+nmap <leader>n <action>(GotoBookmarkN)
+nmap <leader>o <action>(GotoBookmarkO)
+nmap <leader>p <action>(GotoBookmarkP)
+nmap <leader>q <action>(GotoBookmarkQ)
+nmap <leader>r <action>(GotoBookmarkR)
+nmap <leader>s <action>(GotoBookmarkS)
+nmap <leader>t <action>(GotoBookmarkT)
+nmap <leader>u <action>(GotoBookmarkU)
+nmap <leader>v <action>(GotoBookmarkV)
+nmap <leader>w <action>(GotoBookmarkW)
+nmap <leader>x <action>(GotoBookmarkX)
+nmap <leader>y <action>(GotoBookmarkY)
+nmap <leader>z <action>(GotoBookmarkZ)
+
+
+" Toggle bookmarks for 0-9
+nmap '0 <action>(ToggleBookmark0)
+nmap '1 <action>(ToggleBookmark1)
+nmap '2 <action>(ToggleBookmark2)
+nmap '3 <action>(ToggleBookmark3)
+nmap '4 <action>(ToggleBookmark4)
+nmap '5 <action>(ToggleBookmark5)
+nmap '6 <action>(ToggleBookmark6)
+nmap '7 <action>(ToggleBookmark7)
+nmap '8 <action>(ToggleBookmark8)
+nmap '9 <action>(ToggleBookmark9)
+
+
+" Toggle bookmarks for a-z
+nmap 'a <action>(ToggleBookmarkA)
+nmap 'b <action>(ToggleBookmarkB)
+nmap 'c <action>(ToggleBookmarkC)
+nmap 'd <action>(ToggleBookmarkD)
+nmap 'e <action>(ToggleBookmarkE)
+nmap 'f <action>(ToggleBookmarkF)
+nmap 'g <action>(ToggleBookmarkG)
+nmap 'h <action>(ToggleBookmarkH)
+nmap 'i <action>(ToggleBookmarkI)
+nmap 'j <action>(ToggleBookmarkJ)
+nmap 'k <action>(ToggleBookmarkK)
+nmap 'l <action>(ToggleBookmarkL)
+nmap 'm <action>(ToggleBookmarkM)
+nmap 'n <action>(ToggleBookmarkN)
+nmap 'o <action>(ToggleBookmarkO)
+nmap 'p <action>(ToggleBookmarkP)
+nmap 'q <action>(ToggleBookmarkQ)
+nmap 'r <action>(ToggleBookmarkR)
+nmap 's <action>(ToggleBookmarkS)
+nmap 't <action>(ToggleBookmarkT)
+nmap 'u <action>(ToggleBookmarkU)
+nmap 'v <action>(ToggleBookmarkV)
+nmap 'w <action>(ToggleBookmarkW)
+nmap 'x <action>(ToggleBookmarkX)
+nmap 'y <action>(ToggleBookmarkY)
+nmap 'z <action>(ToggleBookmarkZ)
+
+" Error and Warnings
+nmap ]e <action>(GotoNextError)
+nmap [e <action>(GotoPreviousError)
+
+" Goto
+nmap gD <action>(GotoTypeDeclaration)
+nmap gi <action>(GotoImplementation)
+nmap gu <action>(FindUsages)
+nmap gp <action>(ParameterInfo)
+nmap gm <action>(Git.Menu)
+nmap gt <action>(ExpressionTypeInfo)
+nmap S <action>(AceWordStartAction)
