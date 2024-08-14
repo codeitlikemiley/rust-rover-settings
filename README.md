@@ -171,7 +171,7 @@ Et. al.
 | <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>I</kbd>  | Inspect Code with Editor Settings  |
 | <kbd>]</kbd>+<kbd>E</kbd> (VIM)               | Next Error                         |
 | <kbd>[</kbd>+<kbd>E</kbd> (VIM)               | Previous Error                     |
-
+| <kbd>TAB</kbd>+<kbd>E</kbd>                   | Error Description                  |
 
 </details>
 
@@ -277,7 +277,7 @@ Et. al.
 | <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>O</kbd>| Go To Types       |
 | <kbd>SHIFT</kbd>+<kbd>SPACE</kbd>           | Go to Action      |
 | <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>T</kbd>| Go to Test        |
-
+| <kbd>CMD</kbd>+<kbd>Y</kbd>                 | File Structure    |
 </details>
 
 
