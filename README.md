@@ -492,7 +492,7 @@ Et. al.
 | <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>R</kbd>  | Compare with Revisions    |
 | <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>Y</kbd>  | Show History / Diff       |
 | <kbd>CMD</kbd>+<kbd>J</kbd>                   | Next Difference           |
-| <kbd>CMD</kbd>+<kbd>J</kbd>                   | Previous Difference       |
+| <kbd>CMD</kbd>+<kbd>K</kbd>                   | Previous Difference       |
 
 </details>
 
