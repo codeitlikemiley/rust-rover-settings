@@ -610,7 +610,10 @@ Click Insert then Go Bind the KeyMap
 </details>
 
 
-#### Setting  Up Linear
+<details>
+<summary>
+<strong>Setting  Up Linear</strong>
+</summary>
 
 1. Go to Settings -> Tools -> Tasks -> Server 
 2. Add Server 
@@ -625,16 +628,6 @@ Click Insert then Go Bind the KeyMap
 | --------------------------- | ----------- |
 | <kbd>CMD</kbd>+<kbd>\\</kbd> | Open Tasks  |
 
-
-<details>
-<summary>
-<strong>Pieces</strong>
-</summary>
-
-| Keyboard Shortcut                             | Description            |
-| --------------------------------------------- | ---------------------- |
-| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>S</kbd>  | Save to Pieces         |
-| <kbd>CMD</kbd>+<kbd>F9</kbd>                  | Tool Windows -> Pieces |
 
 </details>
 
