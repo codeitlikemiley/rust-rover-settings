@@ -175,38 +175,6 @@ Et. al.
 
 </details>
 
-
-<details>
-<summary>
-<strong>Code Completions</strong>
-</summary>
-
-| Keyboard Shortcut                             | Description                     |
-| --------------------------------------------- | ------------------------------- |
-| <kbd>OPT</kbd>+<kbd>/</kbd>                   | Cyclic Expand Word              |
-| <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>/</kbd>  | Cyclic Expand Backward          |
-| <kbd>OPT</kbd>+<kbd>Space</kbd>               | Basic                           |
-| <kbd>OPT</kbd>+<kbd>ENTER</kbd>               | Type Matching                   |
-
-
-
-</details>
-
-<details>
-<summary>
-<strong>Code Generations / Snippets / Quick Fixes </strong>
-</summary>
-
-| Keyboard Shortcut                             | Description                          |
-| --------------------------------------------- | ------------------------------------ |
-| <kbd>CMD</kbd>+<kbd>J</kbd>                   | Insert Live Template                 |
-| <kbd>CMD</kbd>+<kbd>K</kbd>                   | Generate                             |
-| <kbd>CMD</kbd>+<kbd>L</kbd>                   | Complete Current Statement           |
-| <kbd>OPT</kbd>+<kbd>W</kbd>                   | Surround with Live Template          |
-| <kbd>CMD</kbd>+<kbd>.</kbd>                   | Show Context and Show Quick Fixes    |
-
-</details>
-
 <details>
 <summary>
 <strong>Quickly Jump from One Place to Another</strong>
@@ -241,6 +209,51 @@ Et. al.
 
 <details>
 <summary>
+<strong>Code Completions</strong>
+</summary>
+
+| Keyboard Shortcut                             | Description                     |
+| --------------------------------------------- | ------------------------------- |
+| <kbd>OPT</kbd>+<kbd>/</kbd>                   | Cyclic Expand Word              |
+| <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>/</kbd>  | Cyclic Expand Backward          |
+| <kbd>OPT</kbd>+<kbd>Space</kbd>               | Basic                           |
+| <kbd>OPT</kbd>+<kbd>ENTER</kbd>               | Type Matching                   |
+
+</details>
+
+<details>
+<summary>
+<strong>Type Hinting, Quick Fixes, Formatting</strong>
+</summary>
+
+| Keyboard Shortcut                             | Description                          |
+| --------------------------------------------- | ------------------------------------ |
+| <kbd>gp</kbd>                                 | Parameter Info                       |
+| <kbd>gt</kbd>                                 | Expression Type Info                 |
+| <kbd>CMD</kbd>+<kbd>.</kbd>                   | Show Context and Show Quick Fixes    |
+| <kbd>CMD</kbd>+<kbd>SHIFTT</kbd>+<kbd>I</kbd> | Reformat Code                        |
+| <kbd>OPT</kbd>+<kbd>SPACE</kbd>               | Insert Live Template                 |
+| <kbd>OPT</kbd>+<kbd>W</kbd>                   | Surround with                        |
+| <kbd>CMD</kbd>+<kbd>K</kbd>                   | Code Generate                        |
+| <kbd>CMD</kbd>+<kbd>L</kbd>                   | Complete Current Statement           |
+
+</details>
+
+<details>
+<summary>
+<strong>Macro Expansion</strong>
+</summary>
+
+| Keyboard Shortcut                                       | Description                    |
+| ------------------------------------------------------- | ------------------------------ |
+| <kbd>CMD</kbd>+<kbd>M</kbd>                             | Show Recursive Macro Expansion |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>M</kbd>            | Re-Expand All Rust Macro       |
+
+</details>
+
+
+<details>
+<summary>
 <strong>GoTo</strong>
 </summary>
 
@@ -255,7 +268,6 @@ Et. al.
 | <kbd>F1</kbd>                                           | Quick Documentation            |
 
 </details>
-
 
 
 <details>
@@ -278,6 +290,7 @@ Et. al.
 | <kbd>SHIFT</kbd>+<kbd>SPACE</kbd>           | Go to Action      |
 | <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>T</kbd>| Go to Test        |
 | <kbd>CMD</kbd>+<kbd>Y</kbd>                 | File Structure    |
+
 </details>
 
 
@@ -346,7 +359,6 @@ Et. al.
 </details>
 
 
-
 <details>
 <summary>
 <strong>Moving Across Panes</strong>
@@ -404,8 +416,6 @@ Et. al.
 </details>
 
 
-
-
 <details>
 <summary>
 <strong>File Manipulation</strong>
@@ -416,9 +426,10 @@ Et. al.
 | <kbd>CMD</kbd>+<kbd>N</kbd>                    | New               |
 | <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>N</kbd>   | New Directory     |
 
+Note: New has Different ways to create Files including Directory
+
 </details>
 
-Note: New has Different ways to create Files including Directory
 
 <details>
 <summary>
