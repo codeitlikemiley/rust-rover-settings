@@ -464,6 +464,7 @@ Et. al.
 | --------------------------------------------- | ------------------------- |
 | <kbd>OPT</kbd>+<kbd>G</kbd>                   | Git                       |
 | <kbd>OPT</kbd>+<kbd>A</kbd>                   | Amend                     |
+| <kbd>OPT</kbd>+<kbd>A</kbd>                   | Commit File               |
 | <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>A</kbd>  | Add to .gitignore         |
 | <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>D</kbd>  | Compare with Revisions    |
 | <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>Y</kbd>  | Show History / Diff       |
