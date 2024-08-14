@@ -47,6 +47,7 @@ WARNING: This will make your Rust Journey EASY!
 <summary>
 <strong>Toggle Tool Windows</strong>
 </summary>
+	
 | Keyboard Shortcut                             | Description                          |
 | --------------------------------------------- | ------------------------------------ |
 | <kbd>CMD</kbd>+<kbd>J</kbd>                   | Hide Active Tool Window(Focus Editor |
