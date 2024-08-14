@@ -93,7 +93,7 @@ WARNING: This will make your Rust Journey EASY!
 | ---------------------------------------------- | ----------- |
 | <kbd>OPT</kbd>+<kbd>G</kbd>                    | Git         |
 | <kbd>OPT</kbd>+<kbd>B</kbd>                    | Build       |
-| <kbd>OPT</kbd>+<kbd>A</kbd>                    | Services    |
+| <kbd>OPT</kbd>+<kbd>S</kbd>                    | Services    |
 | <kbd>OPT</kbd>+<kbd>P</kbd>                    | Problems    |
 | <kbd>OPT</kbd>+<kbd>D</kbd>                    | Debug       |
 | <kbd>OPT</kbd>+<kbd>F</kbd>                    | Find        |
