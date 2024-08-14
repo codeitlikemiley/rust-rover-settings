@@ -624,10 +624,10 @@ Click Insert then Go Bind the KeyMap
 	- Workspace ID (codeitlikemiley)
 5. Click Test
 
-| Linear Keys                 | Description |
-| --------------------------- | ----------- |
-| <kbd>CMD</kbd>+<kbd>\\</kbd> | Open Tasks  |
-
+| Linear Keys                                   | Description    |
+| --------------------------------------------- | -------------- |
+| <kbd>CMD</kbd>+<kbd>\\</kbd>                  | Open Tasks     |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>\\</kbd> | Switch Tasks   |
 
 </details>
 
