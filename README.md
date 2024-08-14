@@ -474,7 +474,7 @@ Et. al.
 | Keyboard Shortcut                             | Description               |
 | --------------------------------------------- | ------------------------- |
 | <kbd>OPT</kbd>+<kbd>A</kbd>                   | Amend                     |
-| <kbd>OPT</kbd>+<kbd>A</kbd>                   | Commit File               |
+| <kbd>OPT</kbd>+<kbd>C</kbd>                   | Commit File               |
 | <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>A</kbd>  | Add to .gitignore         |
 | <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>A</kbd>  | Add to VCS                |
 | <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>U</kbd>  | Rollback                  |
