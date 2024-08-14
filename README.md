@@ -2,6 +2,7 @@
 
 > Better workflow , testing and debugging capability on your Next Rust Projects
 
+WARNING: This will make your Rust Journey EASY!
 
 <details>
   <summary>
@@ -50,10 +51,9 @@
 | Tool Window Keys (CMD+Fn Keys) Leftsidebar | Description       |
 | ------------------------------------------ | ----------------- |
 | <kbd>CMD</kbd>+<kbd>F1</kbd>               | Project           |
-| <kbd>CMD</kbd>+<kbd>F2</kbd>               | Structure         |
-| <kbd>CMD</kbd>+<kbd>F3</kbd>               | Cargo             |
-| <kbd>CMD</kbd>+<kbd>F4</kbd>               | Make              |
-| <kbd>CMD</kbd>+<kbd>F5</kbd>               | Bookmarks         |
+| <kbd>CMD</kbd>+<kbd>F2</kbd>               | Commit            |
+| <kbd>CMD</kbd>+<kbd>F3</kbd>               | Bookmarks         |
+| <kbd>CMD</kbd>+<kbd>F4</kbd>               | Pull Requests     |
 
 </details>
 
@@ -66,9 +66,8 @@
 | Tool Window Keys (CMD+Fn Keys) RightSidebar | Description                      |
 | ------------------------------------------- | -------------------------------- |
 | <kbd>CMD</kbd>+<kbd>F12</kbd>               | Notifications                    |
-| <kbd>CMD</kbd>+<kbd>F11</kbd>               | Key Promoter X (Plugin Required) |
-| <kbd>CMD</kbd>+<kbd>F10</kbd>               | Database                         |
-| <kbd>CMD</kbd>+<kbd>F9</kbd>                | Pieces                           |
+| <kbd>CMD</kbd>+<kbd>F11</kbd>               | Cargo                            |
+| <kbd>CMD</kbd>+<kbd>F10</kbd>               | Key Promoter X (Plugin Required) |
 
 </details>
 
@@ -80,7 +79,7 @@
 
 | Tool Window Keys (OPT+Keys) Leftsidebar Bottom | Description |
 | ---------------------------------------------- | ----------- |
-| <kbd>OPT</kbd>+<kbd>C</kbd>                    | Commit      |
+| <kbd>OPT</kbd>+<kbd>G</kbd>                    | Git         |
 | <kbd>OPT</kbd>+<kbd>B</kbd>                    | Build       |
 | <kbd>OPT</kbd>+<kbd>A</kbd>                    | Services    |
 | <kbd>OPT</kbd>+<kbd>P</kbd>                    | Problems    |
@@ -98,14 +97,14 @@
 </summary>
 Mainly used for refactoring and documentation
 
-| Keyboard Shortcuts | Description     |
-| -------------- | ------------------- |
-| <kbd>F1</kbd>  | Quick Documentation |
-| <kbd>F2</kbd>  | Rename              |
-| <kbd>F3</kbd>  | Refactor this       |
-| <kbd>F4</kbd>  | Change Signature    |
-| <kbd>F5</kbd>  | Refactor: Copy      |
-| <kbd>F6</kbd>  | Refactor: Move      |
+| Keyboard Shortcuts | Description       |
+| -------------- | --------------------- |
+| <kbd>F1</kbd>  | Quick Documentation   |
+| <kbd>F2</kbd>  | Rename                |
+| <kbd>F3</kbd>  | Refactor this         |
+| <kbd>F4</kbd>  | Change Signature      |
+| <kbd>F5</kbd>  | Load Changes          |
+| <kbd>F12</kbd> | Hide All Tools Windows|
 
 </details>
 
@@ -117,11 +116,18 @@ Mainly used for refactoring and documentation
 | Keyboard Shorcuts                            | Description               |
 | -------------------------------------------- | ------------------------- |
 | <kbd>CMD</kbd>+<kbd>R</kbd>                  | Run Context Configuration |
-| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>R</kbd> | Re-Run                    |
-| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>P</kbd> | Run Cargo Command         |
-| <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>F</kbd> | Format RSX                |
-| <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>V</kbd> | Html to RSX               |
-| <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>N</kbd> | New Cargo Crate           |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>R</kbd> | Run                       |
+| <kbd>CMD</kbd>+<kbd>T</kbd>                  | External Tools            |
+
+
+Note: External Tools Command Available depends on what you configure on my machine i have the ff:
+
+- Format RSX
+- HTML to RSX
+- Dx Serve SSR
+- Dx Serve Desktop
+
+Et. al.
 
 </details>
 
@@ -133,14 +139,13 @@ Mainly used for refactoring and documentation
 
 | Keyboard Shorcuts                            | Description                 |
 | -------------------------------------------- | --------------------------- |
-| <kbd>CMD</kbd>+<kbd>T</kbd>                  | Debug Context Configuration |
-| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>T</kbd> | Stop                        |
-| <kbd>CMD</kbd>+<kbd>D</kbd>                  | Resume Program              |
-| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>D</kbd> | Toggle Breakpoint           |
-| <kbd>CMD</kbd>+<kbd>L</kbd>                  | Step Into                   |
-| <kbd>CMD</kbd>+<kbd>H</kbd>                  | Step Out                    |
-| <kbd>CMD</kbd>+<kbd>J</kbd>                  | Step Over                   |
-| <kbd>CMD</kbd>+<kbd>K</kbd>                  | Run to Cursor               |
+| <kbd>CMD</kbd>+<kbd>B</kbd>                  | Toggle Breakpoint           |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>S</kbd> | Stop                        |
+| <kbd>OPT</kbd>+<kbd>L</kbd>                  | Step Into                   |
+| <kbd>OPT</kbd>+<kbd>J</kbd>                  | Step Over                   |
+| <kbd>OPT</kbd>+<kbd>K</kbd>                  | Pause / Resume Program      |
+| <kbd>OPT</kbd>+<kbd>H</kbd>                  | Step Out                    |
+
 
 </details>
 
@@ -151,43 +156,43 @@ Mainly used for refactoring and documentation
 
 | Keyboard Shortcut                             | Description                        |
 | --------------------------------------------- | ---------------------------------- |
-| <kbd>OPT</kbd>+<kbd>P</kbd>                   | Tool Windows -> Problems           |
-| <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>P</kbd>  | Run Rust External Linter           |
+| <kbd>OPT</kbd>+<kbd>P</kbd>                   | Problems                           |
 | <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>I</kbd>  | Inspect Code with Editor Settings  |
-| <kbd>CMD</kbd>+<kbd>E</kbd>                   | Next Highlighted Error             |
-| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>E</kbd>  | Previous Highlighted Error         |
-| <kbd>HYPER</kbd>+<kbd>CMD</kbd>+<kbd>J</kbd>  | Jump to Source                     |
-| <kbd>HYPER</kbd>+<kbd>CMD</kbd>+<kbd>K</kbd>  | Jump to Navigation bar             |
+| <kbd>]</kbd>+<kbd>E</kbd> (VIM)               | Next Error                         |
+| <kbd>[</kbd>+<kbd>E</kbd> (VIM)               | Previous Error                     |
+
 
 </details>
 
 
 <details>
 <summary>
-<strong>Auto Complete</strong>
+<strong>Code Completions</strong>
 </summary>
 
 | Keyboard Shortcut                             | Description                     |
 | --------------------------------------------- | ------------------------------- |
-| <kbd>OPT</kbd>+<kbd>,</kbd>                   | Cyclic Expand Word Backward     |
-| <kbd>OPT</kbd>+<kbd>.</kbd>                   | Cyclic Expand Word              |
-| <kbd>CTRL</kbd>+<kbd>Space</kbd>              | Basic                           |
-| <kbd>CTRL</kbd>+<kbd>SHIFT</kbd>+<kbd>Space</kbd> | Type Matching           |
-| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>Enter</kbd>  | Complete Current Statement  |
-| <kbd>TAB</kbd>                                | Insert Inline Proposal          |
+| <kbd>OPT</kbd>+<kbd>/</kbd>                   | Cyclic Expand Word              |
+| <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>/</kbd>  | Cyclic Expand Backward          |
+| <kbd>OPT</kbd>+<kbd>Space</kbd>               | Basic                           |
+| <kbd>OPT</kbd>+<kbd>ENTER</kbd>               | Type Matching                   |
+
+
 
 </details>
 
 <details>
 <summary>
-<strong>Code Generations</strong>
+<strong>Code Generations / Snippets / Quick Fixes </strong>
 </summary>
 
-| Keyboard Shortcut                             | Description         |
-| --------------------------------------------- | ------------------- |
-| <kbd>OPT</kbd>+<kbd>O</kbd>                   | Override Methods    |
-| <kbd>OPT</kbd>+<kbd>I</kbd>                   | Implement Methods   |
-| <kbd>OPT</kbd>+<kbd>G</kbd>                   | Generate            |
+| Keyboard Shortcut                             | Description                          |
+| --------------------------------------------- | ------------------------------------ |
+| <kbd>CMD</kbd>+<kbd>J</kbd>                   | Insert Live Template                 |
+| <kbd>CMD</kbd>+<kbd>K</kbd>                   | Generate                             |
+| <kbd>CMD</kbd>+<kbd>L</kbd>                   | Complete Current Statement           |
+| <kbd>OPT</kbd>+<kbd>W</kbd>                   | Surround with Live Template          |
+| <kbd>CMD</kbd>+<kbd>.</kbd>                   | Show Context and Show Quick Fixes    |
 
 </details>
 
@@ -196,9 +201,13 @@ Mainly used for refactoring and documentation
 <strong>Quickly Jump from One Place to Another</strong>
 </summary>
 
-| Keyboard Shortcut            | Description                    |
-| ---------------------------- | ------------------------------ |
-| <kbd>OPT</kbd>+<kbd>Z</kbd>  | Activate / Cycle AceJump Mode  |
+| Keyboard Shortcut                                             | Description                    |
+| ------------------------------------------------------------- | ------------------------------ |
+| <kbd>S</kbd> (Vim)                                            | Activate / Cycle AceJump Mode  |
+| <kbd>leader</kbd>+<kbd>leader</kbd>+<kbd>w</kbd>              | Search Word Forward            |
+| <kbd>leader</kbd>+<kbd>leader</kbd>+<kbd>b</kbd>              | Search Word Backward           |
+| <kbd>leader</kbd>+<kbd>leader</kbd>+<kbd>f</kbd>              | Search Char Forward            |
+| <kbd>leader</kbd>+<kbd>leader</kbd>+<kbd>F</kbd>              | Search Char Backward           |
 
 </details>
 
@@ -208,13 +217,13 @@ Mainly used for refactoring and documentation
 <strong>Multi-Cursor</strong>
 </summary>
 
-| Keyboard Shortcut                            | Description                                  |
+| Keyboard Shortcut                             | Description                                  |
 | --------------------------------------------- | -------------------------------------------- |
-| <kbd>CMD</kbd>+<kbd>]</kbd>                   | Find Next / Move to Next Occurrence          |
-| <kbd>CMD</kbd>+<kbd>[</kbd>                   | Find Previous / Move to Previous Occurrence |
-| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>]</kbd>  | Unselect Previous Occurrence                |
-| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>[</kbd>  | Add Selection for Next Occurrence           |
-| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>\\</kbd> | Select All Occurrence                       |
+| <kbd>CMD</kbd>+<kbd>G</kbd>                   | Find Next / Move to Next Occurrence          |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>G</kbd>  | Find Previous / Move to Previous Occurrence  |
+| <kbd>CMD</kbd>+<kbd>D</kbd>                   | Add Selection for Next Occurrence            |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>D</kbd>  | Unselect Occurrence                          |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>L</kbd>  | Select All Occurrence                        |
 
 </details>
 
@@ -226,14 +235,13 @@ Mainly used for refactoring and documentation
 
 | Keyboard Shortcut                                       | Description                    |
 | ------------------------------------------------------- | ------------------------------ |
-| <kbd>CMD</kbd>+<kbd>U</kbd> or <kbd>gd</kbd> (Vim)      | Go to Declaration or Usages    |
-| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>U</kbd>            | Find Usages                    |
-| <kbd>CMD</kbd>+<kbd>I</kbd>                             | Go to Implementations          |
-| <kbd>CMD</kbd>+<kbd>Y</kbd>                             | Go to Super Method             |
-| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>Y</kbd>            | Go to Declaration Type         |
+| <kbd>gd</kbd> (Vim)                                     | Go to Declaration or Usages    |
+| <kbd>gD</kbd> (Vim)                                     | Go to TypeDeclaration          |
+| <kbd>gu</kbd> (Vim)                                     | Find Usages                    |
+| <kbd>gi</kbd> (Vim)                                     | Go to Implementations          |
+| <kbd>CMD</kbd>+<kbd>U</kbd>                             | Go to Super Method             |
 | <kbd>SHIFT</kbd>+<kbd>K</kbd> (Vim)                     | Quick Definition               |
 | <kbd>F1</kbd>                                           | Quick Documentation            |
-| <kbd>CMD</kbd>+<kbd>G</kbd>                             | Go to by Reference actions     |
 
 </details>
 
@@ -241,18 +249,23 @@ Mainly used for refactoring and documentation
 
 <details>
 <summary>
-<strong>All About Files Search, Opening</strong>
+<strong>Finders</strong>
 </summary>
 
 | Keyboard Shortcut                           | Description       |
 | ------------------------------------------- | ----------------- |
 | <kbd>CMD</kbd>+<kbd>F</kbd>                 | Find              |
+| <kbd>CMD</kbd>+<kbd>E</kbd>                 | Recent Files      |
 | <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>F</kbd>| Find in Files     |
-| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>U</kbd>| Find Usages       |
-| <kbd>CMD</kbd>+<kbd>P</kbd>                 | Search Everywhere |
-| <kbd>CMD</kbd>+<kbd>O</kbd>                 | Go to Type        |
-| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>P</kbd>| Go To Files       |
-| <kbd>CTRL</kbd>+<kbd>O</kbd>                | Open Files        |
+| <kbd>CMD</kbd>+<kbd>H</kbd>                 | Replace           |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>H</kbd>| Replace in Files  |
+| <kbd>SHIFT</kbd>+<kbd>SHIFT</kbd>           | Search Everywhere |
+| <kbd>CMD</kbd>+<kbd>P</kbd>                 | Go To File        |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>P</kbd>| Run any Command   |
+| <kbd>CMD</kbd>+<kbd>O</kbd>                 | Go to Symbol      |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>O</kbd>| Go To Types       |
+| <kbd>SHIFT</kbd>+<kbd>SPACE</kbd>           | Go to Action      |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>T</kbd>| Go to Test        |
 
 </details>
 
@@ -264,35 +277,60 @@ Mainly used for refactoring and documentation
 
 | Keyboard Shortcut                            | Description                    |
 | -------------------------------------------- | ------------------------------ |
-| <kbd>CMD</kbd>+<kbd>M</kbd>                  | Go to Mnemonic                 |
-| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>M</kbd> | Toggle Bookmark Mnemonic       |
-| <kbd>CMD</kbd>+<kbd>B</kbd>                  | Show Bookmarks                 |
-| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>B</kbd> | Toggle Bookmark / Mnemonic     |
+| <kbd>leader</kbd>+<kbd>[0-9]</kbd>           | Go to Bookmark by number       |
+| <kbd>leader</kbd>+<kbd>[a-z]</kbd>           | Go to Bookmark by letters      |
+| <kbd>'</kbd>+<kbd>[a-z]</kbd>                | Toggle Bookmark by letters     |
+| <kbd>'</kbd>+<kbd>[0-9]</kbd>                | Toggle Bookmark by number      |
 
 </details>
 
 
-
 <details>
 <summary>
-<strong>OPT (SHIFT) [H,J,K,L]</strong>
+<strong>Code Selections</strong>
 </summary>
 
-#### Selection
 | Keyboard Shortcut                            | Description                |
 | -------------------------------------------- | -------------------------- |
-| <kbd>OPT</kbd>+<kbd>H</kbd>                  | Shrink Selection           |
-| <kbd>OPT</kbd>+<kbd>L</kbd>                  | Expand Selection           |
-| <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>H</kbd> | Show History for Selection |
-| <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>L</kbd> | Surround with              |
+| <kbd>OPT</kbd>+<kbd>DOWN</kbd>               | Shrink Selection           |
+| <kbd>OPT</kbd>+<kbd>UP</kbd>                 | Expand Selection           |
 
-#### Moving Up and Down
+</details>
+
+<details>
+<summary>
+<strong>Move Statements</strong>
+</summary>
+
+| Keyboard Shortcut                            | Description                |
+| -------------------------------------------- | -------------------------- |
+| <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>J</kbd> | Move Statement Down        |
+| <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>K</kbd> | Move Statement Up          |
+
+</details>
+
+
+<details>
+<summary>
+<strong>Move Lines</strong>
+</summary>
+
 | Keyboard Shortcut                            | Description         |
 | -------------------------------------------- | ------------------- |
-| <kbd>OPT</kbd>+<kbd>J</kbd>                  | Move Line Down      |
-| <kbd>OPT</kbd>+<kbd>K</kbd>                  | Move Line Up        |
-| <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>J</kbd> | Move Statement Down |
-| <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>K</kbd> | Move Statement Up   |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>J</kbd> | Move Line Down      |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>K</kbd> | Move Line Up        |
+
+</details>
+
+<details>
+<summary>
+<strong>Split Panes</strong>
+</summary>
+
+| Keyboard Shortcut                        | Description        |
+| ---------------------------------------- | ------------------ |
+| <kbd>s</kbd>+<kbd>p</kbd>                | Horizontal Split   |
+| <kbd>v</kbd>+<kbd>s</kbd>++<kbd>p</kbd>  | Vertical Split     |
 
 </details>
 
@@ -300,7 +338,7 @@ Mainly used for refactoring and documentation
 
 <details>
 <summary>
-<strong>Moving Panes on Splits</strong>
+<strong>Moving Across Panes</strong>
 </summary>
 
 | Keyboard Shortcut                        | Description        |
@@ -315,25 +353,38 @@ Mainly used for refactoring and documentation
 
 <details>
 <summary>
-<strong>Easy Tab Switching</strong>
+<strong>Tab Switching</strong>
 </summary>
 
-| Keyboard Shortcut                | Description       |
-| -------------------------------- | ----------------- |
-| <kbd>CMD</kbd>+<kbd>[1-9]</kbd>  | Select Tab [1-9]  |
+| Keyboard Shortcut                | Description          |
+| -------------------------------- | ---------------------|
+| <kbd>CMD</kbd>+<kbd>[1-9]</kbd>  | Select Tab [1-9]     |
+| <kbd>CMD</kbd>+<kbd>[</kbd>      | Select Previous Tab  |
+| <kbd>CMD</kbd>+<kbd>]</kbd>      | Select Next Tab      |
+| <kbd>TAB</kbd>+<kbd>[</kbd>      | Navigate Tab Back    |
+| <kbd>TAB</kbd>+<kbd>]</kbd>      | Navigate Tab Forward |
 
 </details>
 
-
 <details>
 <summary>
-<strong>Comments Folding</strong>
+<strong>Comments</strong>
 </summary>
 
 | Keyboard Shortcut                              | Description                |
 | ---------------------------------------------- | -------------------------- |
 | <kbd>CMD</kbd>+<kbd>/</kbd>                    | Comment with Line Comment  |
 | <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>/</kbd>   | Comment with Block Comment |
+
+</details>
+
+<details>
+<summary>
+<strong>Code Folding</strong>
+</summary>
+
+| Keyboard Shortcut                              | Description                |
+| ---------------------------------------------- | -------------------------- |
 | <kbd>CMD</kbd>+<kbd>(-)</kbd>                  | Folding Collapse           |
 | <kbd>CMD</kbd>+<kbd>(+)</kbd>                  | Folding Expand             |
 | <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>(-)</kbd> | Collapse All               |
@@ -342,18 +393,6 @@ Mainly used for refactoring and documentation
 </details>
 
 
-<details>
-<summary>
-<strong>Type Hinting, Quick Fixes</strong>
-</summary>
-
-| Keyboard Shortcut                             | Description                          |
-| --------------------------------------------- | ------------------------------------ |
-| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>.</kbd>  | Parameter Info                       |
-| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>I</kbd>  | Type Info                            |
-| <kbd>CMD</kbd>+<kbd>.</kbd>                   | Show Context and Show Quick Fixes    |
-
-</details>
 
 
 <details>
@@ -366,7 +405,7 @@ Mainly used for refactoring and documentation
 | <kbd>CMD</kbd>+<kbd>N</kbd>                    | New File          |
 | <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>N</kbd>   | New Directory     |
 | <kbd>OPT</kbd>+<kbd>N</kbd>                    | New Rust File     |
-| <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>N</kbd>   | New Crate         |
+| <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>N</kbd>   | New Bin/Lib Crate |
 
 </details>
 
@@ -374,20 +413,7 @@ Mainly used for refactoring and documentation
 
 <details>
 <summary>
-<strong>Snippets</strong>
-</summary>
-
-| Shortcut Keys                          | Description                 |
-| -------------------------------------- | --------------------------- |
-| <kbd>OPT</kbd>+<kbd>F1</kbd>           | Insert Live Template        |
-| <kbd>OPT</kbd>+<kbd>F2</kbd>           | Surround with Live Template |
-| <kbd>OPT</kbd>+<kbd>F3</kbd>           | Save as Live Template       |
-
-</details>
-
-<details>
-<summary>
-<strong>Copy / Paste / Undo / Redo</strong>
+<strong>File Editing</strong>
 </summary>
 
 | Shortcut Keys                                 | Description |
@@ -401,20 +427,6 @@ Mainly used for refactoring and documentation
 </details>
 
 
-<details>
-<summary>
-<strong>Copilot</strong>
-</summary>
-
-| Shortcut Keys                                 | Description                                    |
-| --------------------------------------------- | ---------------------------------------------- |
-| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>H</kbd>  | Show Previous Completions                      |
-| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>J</kbd>  | Apply Next line of Completion to Editor        |
-| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>K</kbd>  | Apply Next Word of Completion to Editor        |
-| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>L</kbd>  | Show Next Completion                           |
-
-</details>
-
 
 <details>
 <summary>
@@ -424,7 +436,8 @@ Mainly used for refactoring and documentation
 | Keyboard Shortcut                             | Description                  |
 | --------------------------------------------- | ---------------------------- |
 | <kbd>CMD</kbd>+<kbd>F12</kbd>                 | Tool Windows -> Notification |
-| <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>\\</kbd> | Clear all Notifications      |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>F12</kbd>| Clear all Notifications      |
+| <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>M</kbd>  | Maximize Tool Window         |
 
 </details>
 
@@ -436,30 +449,57 @@ Mainly used for refactoring and documentation
 
 | Keyboard Shortcut                             | Description          |
 | --------------------------------------------- | -------------------- |
-| <kbd>OPT</kbd>+<kbd>T</kbd>                   | External Tools       |
-| <kbd>OPT</kbd>+<kbd>Q</kbd>                   | Select In            |
-| <kbd>OPT</kbd>+<kbd>E</kbd>                   | Recent Files         |
-| <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>E</kbd>  | Recent Locations     |
-| <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>S</kbd>  | Replace in Files     |
-| <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>D</kbd>  | Debug                |
 | <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>C</kbd>  | Show Color Picker    |
-| <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>N</kbd>  | New Cargo Crate      |
-| <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>X</kbd>  | Copy Refactor        |
-| <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>M</kbd>  | Show Context Menu    |
+| <kbd>SHIFT</kbd>+<kbd>F1</kbd>                | Show Context Menu    |
+
+</details>
+
+
+<details>
+<summary>
+<strong>VCS / GIT </strong>
+</summary>
+
+| Keyboard Shortcut                             | Description               |
+| --------------------------------------------- | ------------------------- |
+| <kbd>OPT</kbd>+<kbd>G</kbd>                   | Git                       |
+| <kbd>OPT</kbd>+<kbd>A</kbd>                   | Amend                     |
+| <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>A</kbd>  | Add to .gitignore         |
+| <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>D</kbd>  | Compare with Revisions    |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>Y</kbd>  | Show History / Diff       |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>A</kbd>  | Add to VCS                |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>U</kbd>  | Rollback                  |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>M</kbd>  | Move to other Changelist  |
 
 </details>
 
 
 ## Customizing IdeaVim Keys
 
-check list of Actions we can bind with .IdeaVim to our Keys
+1. Enable Idea Vim on Actions List
 
 ```sh
 :actionlist
 ```
 
-We can add custom bindings to our `~/.ideavimrc`
+2. Open Action List
 
+<kbd>SHIFT</kbd>+<kbd>SPACE</kbd>
+
+
+3. Set `ON` 
+
+```sh
+IdeaVim: Track Action IDs
+```
+
+All the Keys and Commands You Invoke Now will be shown as a Notification
+
+4. Open `~/.ideavimrc`
+
+
+5. Add Custom Vim Key Bindings
+6. 
 ```sh
 nmap <leader>v :action Tool_External Tools_gvim<cr>
 ```
