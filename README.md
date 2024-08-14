@@ -609,10 +609,11 @@ Click Insert then Go Bind the KeyMap
 
 </details>
 
+## Setting  Up Linear
 
 <details>
 <summary>
-<strong>Setting  Up Linear</strong>
+<strong>Step by Step Guide</strong>
 </summary>
 
 1. Go to Settings -> Tools -> Tasks -> Server 
