@@ -45,6 +45,17 @@ WARNING: This will make your Rust Journey EASY!
 
 <details>
 <summary>
+<strong>Toggle Tool Windows</strong>
+</summary>
+| Keyboard Shortcut                             | Description                          |
+| --------------------------------------------- | ------------------------------------ |
+| <kbd>CMD</kbd>+<kbd>J</kbd>                   | Hide Active Tool Window(Focus Editor |
+| <kbd>F12</kbd>                                | Hide All Tools Windows|
+
+</details>
+
+<details>
+<summary>
 <strong>Top Left Sidebar Tool Windows</strong>
 </summary>
 
@@ -104,7 +115,6 @@ Mainly used for refactoring and documentation
 | <kbd>F3</kbd>  | Refactor this         |
 | <kbd>F4</kbd>  | Change Signature      |
 | <kbd>F5</kbd>  | Load Changes          |
-| <kbd>F12</kbd> | Hide All Tools Windows|
 
 </details>
 
@@ -457,20 +467,31 @@ Et. al.
 
 <details>
 <summary>
-<strong>VCS / GIT </strong>
+<strong>VCS</strong>
 </summary>
 
 | Keyboard Shortcut                             | Description               |
 | --------------------------------------------- | ------------------------- |
-| <kbd>OPT</kbd>+<kbd>G</kbd>                   | Git                       |
 | <kbd>OPT</kbd>+<kbd>A</kbd>                   | Amend                     |
 | <kbd>OPT</kbd>+<kbd>A</kbd>                   | Commit File               |
 | <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>A</kbd>  | Add to .gitignore         |
-| <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>D</kbd>  | Compare with Revisions    |
-| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>Y</kbd>  | Show History / Diff       |
 | <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>A</kbd>  | Add to VCS                |
 | <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>U</kbd>  | Rollback                  |
 | <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>M</kbd>  | Move to other Changelist  |
+
+</details>
+
+<details>
+<summary>
+<strong>Git History</strong>
+</summary>
+
+| Keyboard Shortcut                             | Description               |
+| --------------------------------------------- | ------------------------- |
+| <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>D</kbd>  | Compare with Revisions    |
+| <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>Y</kbd>  | Show History / Diff       |
+| <kbd>CMD</kbd>+<kbd>J</kbd>                   | Next Difference           |
+| <kbd>CMD</kbd>+<kbd>J</kbd>                   | Previous Difference       |
 
 </details>
 
