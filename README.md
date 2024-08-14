@@ -50,7 +50,7 @@ WARNING: This will make your Rust Journey EASY!
 	
 | Keyboard Shortcut                             | Description                          |
 | --------------------------------------------- | ------------------------------------ |
-| <kbd>CMD</kbd>+<kbd>J</kbd>                   | Hide Active Tool Window(Focus Editor |
+| <kbd>CMD</kbd>+<kbd>J</kbd>                   | Hide Active Tool Window(Focus Editor)|
 | <kbd>F12</kbd>                                | Hide All Tools Windows|
 
 </details>
