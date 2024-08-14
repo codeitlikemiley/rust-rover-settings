@@ -413,14 +413,12 @@ Et. al.
 
 | Shortcut Keys                                  | Description       |
 | ---------------------------------------------- | ----------------- |
-| <kbd>CMD</kbd>+<kbd>N</kbd>                    | New File          |
+| <kbd>CMD</kbd>+<kbd>N</kbd>                    | New               |
 | <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>N</kbd>   | New Directory     |
-| <kbd>OPT</kbd>+<kbd>N</kbd>                    | New Rust File     |
-| <kbd>OPT</kbd>+<kbd>SHIFT</kbd>+<kbd>N</kbd>   | New Bin/Lib Crate |
 
 </details>
 
-
+Note: New has Different ways to create Files including Directory
 
 <details>
 <summary>
